@@ -161,6 +161,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/gold_ingot_from_blasting": {
+    "criteria": {
+      "has_gold_ore": "2020-04-06 20:31:41 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_sword": {
+    "criteria": {
+      "has_diamond": "2020-04-06 20:31:36 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/dark_oak_button": {
     "criteria": {
       "has_planks": "2020-04-06 14:18:40 +0200"
@@ -200,6 +212,12 @@
   "minecraft:recipes/transportation/spruce_boat": {
     "criteria": {
       "in_water": "2020-04-05 20:43:35 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/jukebox": {
+    "criteria": {
+      "has_diamond": "2020-04-06 20:31:36 +0200"
     },
     "done": true
   },
@@ -415,6 +433,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/diamond_chestplate": {
+    "criteria": {
+      "has_diamond": "2020-04-06 20:31:36 +0200"
+    },
+    "done": true
+  },
   "minecraft:story/mine_stone": {
     "criteria": {
       "get_stone": "2020-04-05 20:46:56 +0200"
@@ -430,6 +454,12 @@
   "minecraft:recipes/transportation/minecart": {
     "criteria": {
       "has_iron_ingot": "2020-04-05 21:39:24 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_leggings": {
+    "criteria": {
+      "has_diamond": "2020-04-06 20:31:36 +0200"
     },
     "done": true
   },
@@ -583,18 +613,38 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/diamond_pickaxe": {
+    "criteria": {
+      "has_diamond": "2020-04-06 20:31:36 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_hoe": {
+    "criteria": {
+      "has_diamond": "2020-04-06 20:31:36 +0200"
+    },
+    "done": true
+  },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:skeleton": "2020-04-06 20:25:27 +0200",
       "minecraft:zombie_pigman": "2020-04-06 14:22:29 +0200",
       "minecraft:spider": "2020-04-05 21:02:01 +0200",
       "minecraft:creeper": "2020-04-06 14:11:39 +0200",
-      "minecraft:zombie": "2020-04-05 20:59:20 +0200"
+      "minecraft:zombie": "2020-04-05 20:59:20 +0200",
+      "minecraft:zombie_villager": "2020-04-06 20:28:20 +0200"
     },
     "done": false
   },
   "minecraft:recipes/building_blocks/dark_oak_stairs": {
     "criteria": {
       "has_planks": "2020-04-06 14:18:40 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_shovel": {
+    "criteria": {
+      "has_diamond": "2020-04-06 20:31:36 +0200"
     },
     "done": true
   },
@@ -652,6 +702,12 @@
     },
     "done": true
   },
+  "minecraft:story/mine_diamond": {
+    "criteria": {
+      "diamond": "2020-04-06 20:31:36 +0200"
+    },
+    "done": true
+  },
   "minecraft:story/upgrade_tools": {
     "criteria": {
       "stone_pickaxe": "2020-04-05 21:24:18 +0200"
@@ -661,6 +717,12 @@
   "minecraft:recipes/building_blocks/polished_granite_stairs_from_granite_stonecutting": {
     "criteria": {
       "has_granite": "2020-04-05 21:17:28 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_helmet": {
+    "criteria": {
+      "has_diamond": "2020-04-06 20:31:36 +0200"
     },
     "done": true
   },
@@ -742,6 +804,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/diamond_axe": {
+    "criteria": {
+      "has_diamond": "2020-04-06 20:31:36 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/diorite_stairs_from_diorite_stonecutting": {
     "criteria": {
       "has_diorite": "2020-04-05 21:50:32 +0200"
@@ -787,6 +855,12 @@
   "minecraft:recipes/misc/yellow_dye_from_dandelion": {
     "criteria": {
       "has_yellow_flower": "2020-04-05 20:56:22 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot": {
+    "criteria": {
+      "has_gold_ore": "2020-04-06 20:31:41 +0200"
     },
     "done": true
   },
@@ -859,6 +933,12 @@
   "minecraft:recipes/combat/iron_boots": {
     "criteria": {
       "has_iron_ingot": "2020-04-05 21:39:24 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bone_meal": {
+    "criteria": {
+      "has_bone": "2020-04-06 20:25:28 +0200"
     },
     "done": true
   },
@@ -1121,6 +1201,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/diamond_block": {
+    "criteria": {
+      "has_at_least_9_diamond": "2020-04-06 20:34:09 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/dark_oak_boat": {
     "criteria": {
       "in_water": "2020-04-05 20:43:35 +0200"
@@ -1169,9 +1255,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/diamond": {
+    "criteria": {
+      "has_at_least_9_diamond": "2020-04-06 20:34:09 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/dark_oak_fence": {
     "criteria": {
       "has_planks": "2020-04-06 14:18:40 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_boots": {
+    "criteria": {
+      "has_diamond": "2020-04-06 20:31:36 +0200"
     },
     "done": true
   },

@@ -9,7 +9,7 @@ worlds:
     scale: '1.0'
     respawnWorld: ''
     allowWeather: 'true'
-    difficulty: PEACEFUL
+    difficulty: HARD
     spawning:
       ==: MVSpawnSettings
       animals:
@@ -33,11 +33,11 @@ worlds:
     keepSpawnInMemory: 'true'
     spawnLocation:
       ==: MVSpawnLocation
-      x: -176.0
-      y: 86.0
-      z: 714.0
-      pitch: 0.0
-      yaw: 0.0
+      x: -193.8932908404972
+      y: 63.5
+      z: 599.0709546089204
+      pitch: 31.616985
+      yaw: 348.21692
     autoLoad: 'true'
     bedRespawn: 'true'
     worldBlacklist: []
@@ -56,7 +56,7 @@ worlds:
     scale: '16.0'
     respawnWorld: ''
     allowWeather: 'true'
-    difficulty: PEACEFUL
+    difficulty: HARD
     spawning:
       ==: MVSpawnSettings
       animals:
@@ -103,7 +103,7 @@ worlds:
     scale: '8.0'
     respawnWorld: ''
     allowWeather: 'true'
-    difficulty: PEACEFUL
+    difficulty: HARD
     spawning:
       ==: MVSpawnSettings
       animals:
@@ -150,7 +150,7 @@ worlds:
     scale: '1.0'
     respawnWorld: ''
     allowWeather: 'true'
-    difficulty: PEACEFUL
+    difficulty: HARD
     spawning:
       ==: MVSpawnSettings
       animals:
