@@ -1,265 +1,1020 @@
-[14:54:30] [Server thread/INFO]: Starting minecraft server version 1.14.4
-[14:54:30] [Server thread/INFO]: Loading properties
-[14:54:30] [Server thread/INFO]: This server is running Paper version git-Paper-243 (MC: 1.14.4) (Implementing API version 1.14.4-R0.1-SNAPSHOT)
-[14:54:30] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[14:54:30] [Server thread/INFO]: Using 4 threads for Netty based IO
-[14:54:30] [Server thread/INFO]: Debug logging is disabled
-[14:54:30] [Server thread/INFO]: Default game type: SURVIVAL
-[14:54:30] [Server thread/INFO]: Generating keypair
-[14:54:30] [Server thread/INFO]: Starting Minecraft server on *:27015
-[14:54:30] [Server thread/INFO]: Using epoll channel type
-[14:54:30] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[14:54:30] [Server thread/INFO]: Preparing level "world"
-[14:54:30] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
-[14:54:35] [Server thread/INFO]: Loaded 6 recipes
-[14:54:36] [Server thread/INFO]: -------- World Settings For [world] --------
-[14:54:36] [Server thread/INFO]: Experience Merge Radius: 3.0
-[14:54:36] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[14:54:36] [Server thread/INFO]: Cane Growth Modifier: 100%
-[14:54:36] [Server thread/INFO]: Melon Growth Modifier: 100%
-[14:54:36] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[14:54:36] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[14:54:36] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[14:54:36] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[14:54:36] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[14:54:36] [Server thread/INFO]: Potato Growth Modifier: 100%
-[14:54:36] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[14:54:36] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[14:54:36] [Server thread/INFO]: Vine Growth Modifier: 100%
-[14:54:36] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[14:54:36] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[14:54:36] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[14:54:36] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[14:54:36] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[14:54:36] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[14:54:36] [Server thread/INFO]: Mob Spawn Range: 8
-[14:54:36] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[14:54:36] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[14:54:36] [Server thread/INFO]: Max TNT Explosions: 100
-[14:54:36] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[14:54:36] [Server thread/INFO]: View Distance: 10
-[14:54:36] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[14:54:36] [Server thread/INFO]: Item Despawn Rate: 6000
-[14:54:36] [Server thread/INFO]: Item Merge Radius: 2.5
-[14:54:36] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[14:54:36] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[14:54:36] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[14:54:36] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[14:54:36] [Server thread/INFO]: Experience Merge Radius: 3.0
-[14:54:36] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[14:54:36] [Server thread/INFO]: Cane Growth Modifier: 100%
-[14:54:36] [Server thread/INFO]: Melon Growth Modifier: 100%
-[14:54:36] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[14:54:36] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[14:54:36] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[14:54:36] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[14:54:36] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[14:54:36] [Server thread/INFO]: Potato Growth Modifier: 100%
-[14:54:36] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[14:54:36] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[14:54:36] [Server thread/INFO]: Vine Growth Modifier: 100%
-[14:54:36] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[14:54:36] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[14:54:36] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[14:54:36] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[14:54:36] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[14:54:36] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[14:54:36] [Server thread/INFO]: Mob Spawn Range: 8
-[14:54:36] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[14:54:36] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[14:54:36] [Server thread/INFO]: Max TNT Explosions: 100
-[14:54:36] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[14:54:36] [Server thread/INFO]: View Distance: 10
-[14:54:36] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[14:54:36] [Server thread/INFO]: Item Despawn Rate: 6000
-[14:54:36] [Server thread/INFO]: Item Merge Radius: 2.5
-[14:54:36] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[14:54:36] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[14:54:36] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[14:54:36] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[14:54:36] [Server thread/INFO]: Experience Merge Radius: 3.0
-[14:54:36] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[14:54:36] [Server thread/INFO]: Cane Growth Modifier: 100%
-[14:54:36] [Server thread/INFO]: Melon Growth Modifier: 100%
-[14:54:36] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[14:54:36] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[14:54:36] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[14:54:36] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[14:54:36] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[14:54:36] [Server thread/INFO]: Potato Growth Modifier: 100%
-[14:54:36] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[14:54:36] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[14:54:36] [Server thread/INFO]: Vine Growth Modifier: 100%
-[14:54:36] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[14:54:36] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[14:54:36] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[14:54:36] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[14:54:36] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[14:54:36] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[14:54:36] [Server thread/INFO]: Mob Spawn Range: 8
-[14:54:36] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[14:54:36] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[14:54:36] [Server thread/INFO]: Max TNT Explosions: 100
-[14:54:36] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[14:54:36] [Server thread/INFO]: View Distance: 10
-[14:54:36] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[14:54:36] [Server thread/INFO]: Item Despawn Rate: 6000
-[14:54:36] [Server thread/INFO]: Item Merge Radius: 2.5
-[14:54:36] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[14:54:36] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[14:54:36] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[14:54:36] [Server thread/INFO]: Preparing start region for dimension 'world'/minecraft:overworld
-[14:54:36] [Server thread/INFO]: Preparing spawn area: 0%
-[14:54:36] [Server thread/INFO]: Preparing spawn area: 0%
-[14:54:37] [Server thread/INFO]: Preparing spawn area: 81%
-[14:54:37] [Server thread/INFO]: Preparing spawn area: 100%
-[14:54:39] [Server-Worker-3/INFO]: Preparing spawn area: 100%
-[14:54:39] [Server-Worker-3/INFO]: Preparing spawn area: 100%
-[14:54:40] [Server-Worker-6/INFO]: Preparing spawn area: 100%
-[14:54:40] [Server-Worker-3/INFO]: Preparing spawn area: 100%
-[14:54:40] [Server thread/INFO]: Preparing spawn area: 100%
-[14:54:40] [Server thread/INFO]: Loaded 441 spawn chunks for world world
-[14:54:40] [Server thread/INFO]: Time elapsed: 4057 ms
-[14:54:40] [Server thread/INFO]: Preparing start region for dimension 'world_nether'/minecraft:the_nether
-[14:54:40] [Server thread/INFO]: Preparing spawn area: 0%
-[14:54:40] [Server thread/INFO]: Preparing spawn area: 34%
-[14:54:41] [Server thread/INFO]: Preparing spawn area: 85%
-[14:54:41] [Server-Worker-4/INFO]: Preparing spawn area: 100%
-[14:54:42] [Server-Worker-3/INFO]: Preparing spawn area: 100%
-[14:54:42] [Server-Worker-5/INFO]: Preparing spawn area: 100%
-[14:54:43] [Server-Worker-5/INFO]: Preparing spawn area: 100%
-[14:54:43] [Server-Worker-1/INFO]: Preparing spawn area: 100%
-[14:54:44] [Server thread/INFO]: Loaded 441 spawn chunks for world world_nether
-[14:54:44] [Server thread/INFO]: Time elapsed: 3680 ms
-[14:54:44] [Server thread/INFO]: Preparing start region for dimension 'world_the_end'/minecraft:the_end
-[14:54:44] [Server thread/INFO]: Preparing spawn area: 0%
-[14:54:44] [Server-Worker-5/INFO]: Preparing spawn area: 100%
-[14:54:44] [Server thread/INFO]: Loaded 441 spawn chunks for world world_the_end
-[14:54:44] [Server thread/INFO]: Time elapsed: 915 ms
-[14:54:44] [Server thread/INFO]: Done (14.103s)! For help, type "help"
-[14:54:44] [Server thread/INFO]: Timings Reset
-[14:54:46] [User Authenticator #1/INFO]: UUID of player TechnicalPlayz is 32462912-02d5-4f06-8148-5e56c5a1e635
-[14:54:46] [User Authenticator #2/INFO]: UUID of player Ricky107 is a122b62e-4a26-4c9f-957f-19b1d497032b
-[14:54:47] [Server thread/INFO]: Ricky107[/145.87.253.6:50967] logged in with entity id 263 at ([world]-248.5985806977842, 63.0, 494.9066562766128)
-[14:54:47] [Server thread/INFO]: TechnicalPlayz[/94.214.51.140:54507] logged in with entity id 266 at ([world]-196.77639777105642, 63.0, 533.9141712425625)
-[14:54:52] [User Authenticator #2/INFO]: UUID of player Dhretsam is bbbacd2d-cc8d-4445-94d1-8ffe152fcd22
-[14:54:52] [Server thread/INFO]: Dhretsam[/87.156.41.175:49930] logged in with entity id 413 at ([world]-201.9530654078826, 65.0, 508.6999999880792)
-[14:58:37] [Async Chat Thread - #0/INFO]: <Ricky107> its weird ye
-[14:59:00] [Server thread/INFO]: Dhretsam was slain by Enderman
-[14:59:09] [Server thread/INFO]: Ricky107 has made the advancement [The Parrots and the Bats]
-[15:02:54] [Async Chat Thread - #1/INFO]: <Ricky107> xD i jsut see tech getting chased by a ender man
-[15:03:10] [Server thread/INFO]: TechnicalPlayz was slain by Enderman
-[15:03:15] [Async Chat Thread - #1/INFO]: <Ricky107> f
-[15:03:54] [Async Chat Thread - #1/INFO]: <Ricky107> oh my
-[15:04:05] [Async Chat Thread - #1/INFO]: <Ricky107> someone was yelling in the background
-[15:04:34] [Server thread/INFO]: Ricky107 was slain by Enderman
-[15:05:41] [Async Chat Thread - #2/INFO]: <Ricky107> with shaders like everything looks good
-[15:05:52] [Async Chat Thread - #2/INFO]: <Ricky107> ooh
-[15:08:42] [Async Chat Thread - #3/INFO]: <Ricky107> uh
-[15:08:43] [Async Chat Thread - #3/INFO]: <Ricky107> ye
-[15:09:47] [Async Chat Thread - #4/INFO]: <Ricky107> make it with a button or something
-[15:09:55] [Async Chat Thread - #4/INFO]: <Ricky107> or pressure plates
-[15:10:30] [Async Chat Thread - #4/INFO]: <Ricky107> ye
-[15:10:31] [Async Chat Thread - #4/INFO]: <Ricky107> wait
-[15:11:12] [Server thread/INFO]: TechnicalPlayz lost connection: Disconnected
-[15:11:12] [Server thread/INFO]: TechnicalPlayz left the game
-[15:12:24] [Async Chat Thread - #5/INFO]: <Ricky107> Dhretsam what u up to
-[15:12:26] [Async Chat Thread - #5/INFO]: <Ricky107> wait what
-[15:12:33] [Async Chat Thread - #5/INFO]: <Ricky107> omg
-[15:12:53] [Async Chat Thread - #5/INFO]: <Ricky107> thats the second creeper in my house
-[15:16:35] [Server thread/WARN]: Dhretsam moved too quickly! -10.7876259226731,-0.1216000461578286,-0.14559049229262655
-[15:17:13] [Async Chat Thread - #6/INFO]: <Ricky107> i love how he tried blocking the unoffical mine but yo ucana dig around it
-[15:20:26] [Server thread/INFO]: Dhretsam was slain by Zombie
-[15:20:41] [Server thread/INFO]: Dhretsam issued server command: /time set day
-[15:20:41] [Server thread/INFO]: [Dhretsam: Set the time to 1000]
-[15:21:46] [Server thread/INFO]: Ricky107 burned to death
-[15:28:24] [User Authenticator #3/INFO]: UUID of player TechnicalPlayz is 32462912-02d5-4f06-8148-5e56c5a1e635
-[15:28:25] [Server thread/INFO]: TechnicalPlayz[/94.214.51.140:54682] logged in with entity id 6931 at ([world]-194.27161894291783, 63.0, 534.615494501063)
-[15:29:20] [Async Chat Thread - #7/INFO]: <Ricky107> do you ever just wonder how many diamonds you have missed by one block?
-[15:31:36] [Server thread/INFO]: Dhretsam tried to swim in lava
-[15:32:41] [Server thread/INFO]: Dhretsam issued server command: /time set day
-[15:32:41] [Server thread/INFO]: [Dhretsam: Set the time to 1000]
-[15:34:52] [Server thread/INFO]: Ricky107 tried to swim in lava
-[15:35:01] [Async Chat Thread - #8/INFO]: <Ricky107> xD
-[15:40:03] [Async Chat Thread - #9/INFO]: <Ricky107> uh i found a zombie spawner do i destroy it oor
-[15:40:14] [Async Chat Thread - #9/INFO]: <TechnicalPlayz> no wait till we get silk touch
-[15:40:19] [Async Chat Thread - #9/INFO]: <Dhretsam> leave it
-[15:40:23] [Async Chat Thread - #9/INFO]: <TechnicalPlayz> place some torches around it so its disabled
-[15:40:35] [Async Chat Thread - #9/INFO]: <Ricky107> but we need a plug in to use silktouch on one
-[15:40:43] [Async Chat Thread - #9/INFO]: <TechnicalPlayz> nope
-[15:40:49] [Server thread/INFO]: Ricky107 was slain by Zombie
-[15:40:50] [Async Chat Thread - #9/INFO]: <TechnicalPlayz> silk touch always works on spawners
-[15:40:58] [Async Chat Thread - #9/INFO]: <Ricky107> does it?
-[15:41:03] [Async Chat Thread - #9/INFO]: <TechnicalPlayz> yes
-[15:41:04] [Async Chat Thread - #9/INFO]: <Ricky107> never has for me
-[15:41:13] [Async Chat Thread - #9/INFO]: <TechnicalPlayz> huh
-[15:41:18] [Async Chat Thread - #9/INFO]: <Ricky107> ima test that
-[15:41:20] [Server thread/INFO]: Ricky107 lost connection: Disconnected
-[15:41:20] [Server thread/INFO]: Ricky107 left the game
-[15:43:37] [Async Chat Thread - #10/INFO]: <TechnicalPlayz> im sleeping
-[15:43:40] [User Authenticator #4/INFO]: UUID of player Ricky107 is a122b62e-4a26-4c9f-957f-19b1d497032b
-[15:43:40] [Server thread/INFO]: Ricky107[/145.87.253.6:53521] logged in with entity id 10554 at ([world]-225.5, 64.0000002, 524.5)
-[15:43:45] [Async Chat Thread - #10/INFO]: <Ricky107> nope doesnt work
-[15:43:52] [Async Chat Thread - #10/INFO]: <TechnicalPlayz> oof
-[15:43:56] [Server thread/INFO]: Dhretsam issued server command: /time set day
-[15:43:56] [Server thread/INFO]: [Dhretsam: Set the time to 1000]
-[15:44:38] [Async Chat Thread - #10/INFO]: <Dhretsam> but we can turn it into a underground mobfarm
-[15:44:42] [Async Chat Thread - #10/INFO]: <Ricky107> ye
-[15:48:02] [Server thread/INFO]: Ricky107 tried to swim in lava
-[15:48:07] [Async Chat Thread - #11/INFO]: <TechnicalPlayz> :D
-[15:50:44] [Async Chat Thread - #12/INFO]: <Ricky107> nice :3
-[15:50:48] [Async Chat Thread - #12/INFO]: <TechnicalPlayz> thanks :D
-[15:50:53] [Async Chat Thread - #12/INFO]: <Ricky107> look on the tower
-[15:51:02] [Async Chat Thread - #12/INFO]: <TechnicalPlayz> yeah a boat xD
-[15:51:16] [Async Chat Thread - #12/INFO]: <Ricky107> 2 :p
-[15:51:20] [Async Chat Thread - #12/INFO]: <TechnicalPlayz> oh xD
-[15:51:26] [Async Chat Thread - #12/INFO]: <TechnicalPlayz> even better
-[15:52:41] [Server thread/INFO]: [Server] is this the normal server
-[15:52:45] [Async Chat Thread - #13/INFO]: <Ricky107> ye
-[15:52:48] [Server thread/INFO]: [Server] kk
-[15:53:03] [Server thread/INFO]: [Server] kill TechnicalPlayz, Dhretsam, Ricky107 ^~^
-[15:53:09] [Async Chat Thread - #13/INFO]: <TechnicalPlayz> oof
-[15:53:10] [Async Chat Thread - #13/INFO]: <Ricky107> :P
-[15:53:17] [Async Chat Thread - #13/INFO]: <TechnicalPlayz> thats not nice
-[15:53:18] [Server thread/INFO]: [Server] did it kill you guys ?
-[15:53:21] [Async Chat Thread - #13/INFO]: <Ricky107> na
-[15:53:28] [Async Chat Thread - #13/INFO]: <TechnicalPlayz> nope\
-[15:53:29] [Server thread/INFO]: [Server] no srsly
-[15:53:33] [Server thread/INFO]: [Server] good
-[15:54:07] [Server thread/INFO]: [Server] .kill TechnicalPlayz, Dhretsam, Ricky107 ^~^
-[15:54:11] [Async Chat Thread - #13/INFO]: <TechnicalPlayz> oof
-[15:54:12] [Async Chat Thread - #13/INFO]: <TechnicalPlayz> again
-[15:54:15] [Async Chat Thread - #13/INFO]: <TechnicalPlayz> rude
-[15:54:20] [Server thread/INFO]: Unknown command. Type "/help" for help.
-[15:54:25] [Server thread/INFO]: [Server] TechnicalPlayz, Dhretsam, Ricky107
-[15:54:29] [Server thread/INFO]: [Server] .TechnicalPlayz, Dhretsam, Ricky107
-[15:54:33] [Server thread/INFO]: [Server] .@.a
-[15:55:43] [Async Chat Thread - #14/INFO]: <Ricky107> sleep?
-[15:55:51] [Async Chat Thread - #14/INFO]: <TechnicalPlayz> i cant im stuck in my own tower xD
-[15:55:51] [Server thread/INFO]: [Server] time set day
-[15:55:59] [Async Chat Thread - #14/INFO]: <Ricky107> how
-[15:56:03] [Async Chat Thread - #14/INFO]: <TechnicalPlayz> im out now
-[15:56:06] [Server thread/INFO]: Dhretsam issued server command: /time set day
-[15:56:06] [Server thread/INFO]: [Dhretsam: Set the time to 1000]
-[16:05:02] [Async Chat Thread - #15/INFO]: <Ricky107> yess
-[16:05:07] [Server thread/INFO]: Saving the game (this may take a moment!)
-[16:05:08] [Server thread/INFO]: Saved the game
-[16:05:09] [Server thread/INFO]: Stopping the server
-[16:05:09] [Server thread/INFO]: Stopping server
-[16:05:09] [Server thread/INFO]: Saving players
-[16:05:09] [Server thread/INFO]: TechnicalPlayz lost connection: Server closed
-[16:05:09] [Server thread/INFO]: TechnicalPlayz left the game
-[16:05:09] [Server thread/INFO]: Dhretsam lost connection: Server closed
-[16:05:09] [Server thread/INFO]: Dhretsam left the game
-[16:05:09] [Server thread/INFO]: Ricky107 lost connection: Server closed
-[16:05:09] [Server thread/INFO]: Ricky107 left the game
-[16:05:10] [Server thread/INFO]: Saving worlds
-[16:05:10] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
-[16:05:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[16:05:10] [Server thread/INFO]: Saving chunks for level 'world_nether'/minecraft:the_nether
-[16:05:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[16:05:10] [Server thread/INFO]: Saving chunks for level 'world_the_end'/minecraft:the_end
-[16:05:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[16:05:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[16:05:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[16:05:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16:08:16] [Server thread/INFO]: Starting minecraft server version 1.14.4
+[16:08:16] [Server thread/INFO]: Loading properties
+[16:08:16] [Server thread/INFO]: This server is running Paper version git-Paper-243 (MC: 1.14.4) (Implementing API version 1.14.4-R0.1-SNAPSHOT)
+[16:08:17] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[16:08:17] [Server thread/INFO]: Using 4 threads for Netty based IO
+[16:08:17] [Server thread/INFO]: Debug logging is disabled
+[16:08:17] [Server thread/INFO]: Default game type: SURVIVAL
+[16:08:17] [Server thread/INFO]: Generating keypair
+[16:08:17] [Server thread/INFO]: Starting Minecraft server on *:27015
+[16:08:17] [Server thread/INFO]: Using epoll channel type
+[16:08:20] [Server thread/WARN]: Plugin dynmap v2.5-Dev201706100405 does not specify an api-version.
+[16:08:20] [Server thread/WARN]: Plugin SilkSpawners v5.0.2 does not specify an api-version.
+[16:08:20] [Server thread/INFO]: [dynmap] Loading dynmap v2.5-Dev201706100405
+[16:08:20] [Server thread/INFO]: [dynmap] version=git-Paper-243 (MC: 1.14.4)
+[16:08:20] [Server thread/ERROR]: [dynmap] Unable to find method getById for net.minecraft.server.v1_14_R1.Block
+[16:08:20] [Server thread/ERROR]: [dynmap] Unable to find method a for net.minecraft.server.v1_14_R1.BiomeBase
+[16:08:20] [Server thread/ERROR]: [dynmap] Unable to find field temperature for net.minecraft.server.v1_14_R1.BiomeBase
+[16:08:20] [Server thread/ERROR]: [dynmap] Unable to find field humidity for net.minecraft.server.v1_14_R1.BiomeBase
+[16:08:20] [Server thread/ERROR]: [dynmap] Unable to find field y for net.minecraft.server.v1_14_R1.BiomeBase
+[16:08:20] [Server thread/INFO]: [dynmap] Unload queue not found - default to unload all chunks
+[16:08:20] [Server thread/INFO]: [dynmap] inhabitedTicks field not found - inhabited shader not functional
+[16:08:20] [Server thread/ERROR]: [dynmap] Unable to find method b for net.minecraft.server.v1_14_R1.WorldBorder
+[16:08:20] [Server thread/ERROR]: [org.bukkit.craftbukkit.v1_14_R1.CraftServer] Error initializing dynmap - bukkit version incompatible! initializing dynmap v2.5-Dev201706100405 (Is it up to date?)
+java.lang.IllegalArgumentException: Error initializing dynmap - bukkit version incompatible!
+	at org.dynmap.bukkit.BukkitVersionHelperGeneric.<init>(BukkitVersionHelperGeneric.java:129) ~[?:?]
+	at org.dynmap.bukkit.BukkitVersionHelperCB.<init>(BukkitVersionHelperCB.java:39) ~[?:?]
+	at org.dynmap.bukkit.BukkitVersionHelper.getHelper(BukkitVersionHelper.java:42) ~[?:?]
+	at org.dynmap.bukkit.DynmapPlugin.onLoad(DynmapPlugin.java:756) ~[?:?]
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.loadPlugins(CraftServer.java:360) ~[patched_1.14.4.jar:git-Paper-243]
+	at net.minecraft.server.v1_14_R1.DedicatedServer.init(DedicatedServer.java:226) ~[patched_1.14.4.jar:git-Paper-243]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:876) ~[patched_1.14.4.jar:git-Paper-243]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[16:08:20] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.0.1;61bc012
+[16:08:20] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@492e3195]
+[16:08:20] [Server thread/INFO]: [Timber] Loading Timber v1.0.7
+[16:08:20] [Server thread/INFO]: [InvSort] Loading InvSort v1.1.0
+[16:08:20] [Server thread/INFO]: [SinglePlayerSleep] Loading SinglePlayerSleep v1.13_2.13.38
+[16:08:20] [Server thread/INFO]: [Vault] Loading Vault v1.7.2-b107
+[16:08:20] [Server thread/INFO]: [SilkSpawners] Loading SilkSpawners v5.0.2
+[16:08:20] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v4.1.0-b775
+[16:08:20] [Server thread/INFO]: [PetMaster] Loading PetMaster v1.10.2
+[16:08:20] [Server thread/INFO]: [MyPet] Loading MyPet v3.9
+[16:08:20] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [[0;32;22mMyPet[m] [mError-Reporter ENABLED[m
+[16:08:21] [Server thread/INFO]: [Essentials] Loading Essentials v2.17.2.45
+[16:08:21] [Server thread/INFO]: [Multiverse-SignPortals] Loading Multiverse-SignPortals v4.1.0-b748
+[16:08:21] [Server thread/INFO]: [VeinMiner] Loading VeinMiner v1.15.0
+[16:08:21] [Server thread/INFO]: [TheNewEconomy] Loading TheNewEconomy v0.1.1.9
+[16:08:21] [Server thread/INFO]: [TheNewEconomy] Loading The New Economy with Java Version: 11.0.6
+[16:08:21] [Server thread/INFO]: [TheNewEconomy] Hooked into Vault
+[16:08:21] [Server thread/INFO]: [TempFly] Loading TempFly v2.0.1
+[16:08:21] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[16:08:21] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.0.1;61bc012
+[16:08:21] [Server thread/INFO]: WEPIF: Updated config file
+[16:08:21] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[16:08:21] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_14_R4 as the Bukkit adapter
+[16:08:21] [Server thread/INFO]: [WorldEdit] Default configuration file written: config.yml
+[16:08:22] [Server thread/INFO]: [Vault] Enabling Vault v1.7.2-b107
+[16:08:22] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[16:08:22] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[16:08:22] [Server thread/INFO]: [Vault] Enabled Version 1.7.2-b107
+[16:08:22] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[16:08:22] [Server thread/INFO]: Preparing level "world"
+[16:08:22] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[16:08:23] [Server thread/INFO]: Loaded 6 recipes
+[16:08:23] [Server thread/INFO]: -------- World Settings For [world] --------
+[16:08:23] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[16:08:23] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[16:08:23] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[16:08:23] [Server thread/INFO]: Max TNT Explosions: 100
+[16:08:23] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[16:08:23] [Server thread/INFO]: Experience Merge Radius: 3.0
+[16:08:23] [Server thread/INFO]: Mob Spawn Range: 8
+[16:08:23] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[16:08:23] [Server thread/INFO]: Cane Growth Modifier: 100%
+[16:08:23] [Server thread/INFO]: Melon Growth Modifier: 100%
+[16:08:23] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[16:08:23] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[16:08:23] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[16:08:23] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[16:08:23] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[16:08:23] [Server thread/INFO]: Potato Growth Modifier: 100%
+[16:08:23] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[16:08:23] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[16:08:23] [Server thread/INFO]: Vine Growth Modifier: 100%
+[16:08:23] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[16:08:23] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[16:08:23] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[16:08:23] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[16:08:23] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[16:08:23] [Server thread/INFO]: View Distance: 10
+[16:08:23] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[16:08:23] [Server thread/INFO]: Item Merge Radius: 2.5
+[16:08:23] [Server thread/INFO]: Item Despawn Rate: 6000
+[16:08:23] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[16:08:23] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[16:08:23] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[16:08:24] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[16:08:24] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[16:08:24] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[16:08:24] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[16:08:24] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[16:08:24] [Server thread/INFO]: Max TNT Explosions: 100
+[16:08:24] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[16:08:24] [Server thread/INFO]: Experience Merge Radius: 3.0
+[16:08:24] [Server thread/INFO]: Mob Spawn Range: 8
+[16:08:24] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[16:08:24] [Server thread/INFO]: Cane Growth Modifier: 100%
+[16:08:24] [Server thread/INFO]: Melon Growth Modifier: 100%
+[16:08:24] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[16:08:24] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[16:08:24] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[16:08:24] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[16:08:24] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[16:08:24] [Server thread/INFO]: Potato Growth Modifier: 100%
+[16:08:24] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[16:08:24] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[16:08:24] [Server thread/INFO]: Vine Growth Modifier: 100%
+[16:08:24] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[16:08:24] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[16:08:24] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[16:08:24] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[16:08:24] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[16:08:24] [Server thread/INFO]: View Distance: 10
+[16:08:24] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[16:08:24] [Server thread/INFO]: Item Merge Radius: 2.5
+[16:08:24] [Server thread/INFO]: Item Despawn Rate: 6000
+[16:08:24] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[16:08:24] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[16:08:24] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[16:08:24] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[16:08:24] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[16:08:24] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[16:08:24] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[16:08:24] [Server thread/INFO]: Max TNT Explosions: 100
+[16:08:24] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[16:08:24] [Server thread/INFO]: Experience Merge Radius: 3.0
+[16:08:24] [Server thread/INFO]: Mob Spawn Range: 8
+[16:08:24] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[16:08:24] [Server thread/INFO]: Cane Growth Modifier: 100%
+[16:08:24] [Server thread/INFO]: Melon Growth Modifier: 100%
+[16:08:24] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[16:08:24] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[16:08:24] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[16:08:24] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[16:08:24] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[16:08:24] [Server thread/INFO]: Potato Growth Modifier: 100%
+[16:08:24] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[16:08:24] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[16:08:24] [Server thread/INFO]: Vine Growth Modifier: 100%
+[16:08:24] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[16:08:24] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[16:08:24] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[16:08:24] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[16:08:24] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[16:08:24] [Server thread/INFO]: View Distance: 10
+[16:08:24] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[16:08:24] [Server thread/INFO]: Item Merge Radius: 2.5
+[16:08:24] [Server thread/INFO]: Item Despawn Rate: 6000
+[16:08:24] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[16:08:24] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[16:08:24] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[16:08:24] [Server thread/INFO]: Preparing start region for dimension 'world'/minecraft:overworld
+[16:08:24] [Server thread/INFO]: Preparing spawn area: 0%
+[16:08:24] [Server thread/INFO]: Preparing spawn area: 34%
+[16:08:25] [Server thread/INFO]: Preparing spawn area: 100%
+[16:08:25] [Server thread/INFO]: Loaded 441 spawn chunks for world world
+[16:08:25] [Server thread/INFO]: Time elapsed: 1067 ms
+[16:08:25] [Server thread/INFO]: Preparing start region for dimension 'world_nether'/minecraft:the_nether
+[16:08:25] [Server thread/INFO]: Preparing spawn area: 0%
+[16:08:25] [Server-Worker-4/INFO]: Preparing spawn area: 100%
+[16:08:26] [Server-Worker-2/INFO]: Preparing spawn area: 100%
+[16:08:26] [Server-Worker-1/INFO]: Preparing spawn area: 100%
+[16:08:27] [Server thread/INFO]: Loaded 441 spawn chunks for world world_nether
+[16:08:27] [Server thread/INFO]: Time elapsed: 1852 ms
+[16:08:27] [Server thread/INFO]: Preparing start region for dimension 'world_the_end'/minecraft:the_end
+[16:08:27] [Server thread/INFO]: Preparing spawn area: 0%
+[16:08:27] [Server-Worker-4/INFO]: Preparing spawn area: 100%
+[16:08:28] [Server-Worker-1/INFO]: Preparing spawn area: 100%
+[16:08:28] [Server thread/INFO]: Loaded 441 spawn chunks for world world_the_end
+[16:08:28] [Server thread/INFO]: Time elapsed: 1015 ms
+[16:08:28] [Server thread/INFO]: [dynmap] Enabling dynmap v2.5-Dev201706100405*
+[16:08:28] [Server thread/INFO]: [dynmap] Dynmap is disabled (unsupported platform)
+[16:08:28] [Server thread/INFO]: [Timber] Enabling Timber v1.0.7
+[16:08:28] [Server thread/INFO]: Timber Log Materials: [DARK_OAK_LOG, SPRUCE_LOG, BIRCH_LOG, JUNGLE_LOG, ACACIA_LOG, OAK_LOG]
+[16:08:28] [Server thread/INFO]: Timber Axe Materials: [IRON_AXE, WOODEN_AXE, GOLDEN_AXE, STONE_AXE, DIAMOND_AXE]
+[16:08:28] [Server thread/INFO]: [InvSort] Enabling InvSort v1.1.0
+[16:08:28] [Server thread/INFO]: [SinglePlayerSleep] Enabling SinglePlayerSleep v1.13_2.13.38
+[16:08:28] [Server thread/INFO]: [1m[33mSinglePlayerSleep 1.13_2.13.38[0m displaycancel=true[0m
+[16:08:28] [Server thread/INFO]: [1m[33m**************************************[0m
+[16:08:28] [Server thread/INFO]: [1m[32mSinglePlayerSleep v1.13_2.13.38[0m Loading...
+[16:08:28] [Server thread/INFO]: [1m[33mSinglePlayerSleep 1.13_2.13.38[0m lang file not found! copied cs_CZ.yml, de_DE.yml, en_US.yml, es_MX.yml, fr_FR.yml, lol_US.yml, nl_NL.yml, pt_BR.yml, and zh_TW.yml to plugins/SinglePlayerSleep/lang[0m
+[16:08:28] [Server thread/INFO]: [1m[33mSinglePlayerSleep 1.13_2.13.38[0m plugins/SinglePlayerSleep/config.yml[0m
+[16:08:28] [Server thread/INFO]: [1m[33mSinglePlayerSleep 1.13_2.13.38[0m config.yml not found, creating![0m
+[16:08:28] [Server thread/INFO]: Checking for updates...
+[16:08:28] [Server thread/INFO]: [1m[33m**************************************[0m
+[16:08:28] [Server thread/INFO]: [1m[32mSinglePlayerSleep v1.13_2.13.38[0m is [1mENABLED[0m
+[16:08:28] [Server thread/INFO]: [1m[33m**************************************[0m
+[16:08:28] [Server thread/INFO]: [1m[33mSinglePlayerSleep 1.13_2.13.38[0m MC vgit-Paper-243 (MC: 1.14.4) debug=false in plugins/SinglePlayerSleep/config.yml[0m
+[16:08:28] [Server thread/INFO]: [SilkSpawners] Enabling SilkSpawners v5.0.2*
+[16:08:28] [Server thread/INFO]: [SilkSpawners] This version of the plugin is NOT compatible with your Minecraft version!
+[16:08:28] [Server thread/INFO]: [SilkSpawners] Please check your versions to make sure they match!
+[16:08:28] [Server thread/INFO]: [SilkSpawners] Disabling now!
+[16:08:28] [Server thread/INFO]: [SilkSpawners] Compatible versions are: [v1_5_R1, v1_5_R2, v1_5_R3, v1_6_R1, v1_6_R2, v1_6_R3, v1_7_R1, v1_7_R2, v1_7_R3, v1_7_R4, v1_8_R1, v1_8_R2, v1_8_R3, v1_9_R1, v1_9_R2, v1_10_R1, v1_11_R1, v1_12_R1]
+[16:08:28] [Server thread/INFO]: [SilkSpawners] Your version is: v1_14_R1
+[16:08:28] [Server thread/INFO]: [SilkSpawners] You can disable this check by setting testMCVersion to false in the config!
+[16:08:28] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.1.0-b775
+[16:08:28] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.1.0-b775" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [Rigby, fernferret, lithium3141, main--, dumptruckman].
+[16:08:28] [Server thread/INFO]: [Multiverse-Core] We are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do. The performance impact is negligible.
+[16:08:28] [Server thread/WARN]: [Multiverse-Core] Cannot load worlds.yml
+[16:08:28] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: NORMAL & seed: 927637447897712692
+[16:08:28] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'world_nether' - Env: NETHER - Type: NORMAL & seed: 927637447897712692
+[16:08:28] [Server thread/WARN]: [Multiverse-Core] Spawn location from world.dat file was unsafe. Adjusting...
+[16:08:28] [Server thread/WARN]: [Multiverse-Core] Original Location: X: 0 Y: 64 Z: 0 P: 0 Y: 0 
+[16:08:28] [Server thread/INFO]: [Multiverse-Core] New Spawn for 'world_nether' is located at: world_nether:0.00,21.00,0.00:0.00:0.00
+[16:08:28] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'world_the_end' - Env: THE_END - Type: NORMAL & seed: 927637447897712692
+[16:08:28] [Server thread/WARN]: [Multiverse-Core] Spawn location from world.dat file was unsafe. Adjusting...
+[16:08:28] [Server thread/WARN]: [Multiverse-Core] Original Location: X: 0 Y: 50 Z: 0 P: 0 Y: 0 
+[16:08:28] [Server thread/INFO]: [Multiverse-Core] New Spawn for 'world_the_end' is located at: world_the_end:0.50,56.00,-7.50:0.00:0.00
+[16:08:28] [Server thread/INFO]: [Multiverse-Core] 3 - World(s) loaded.
+[16:08:28] [Server thread/WARN]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[16:08:29] [Server thread/INFO]: [Multiverse-Core] Version 4.1.0-b775 (API v24) Enabled - By Rigby, fernferret, lithium3141, main-- and dumptruckman
+[16:08:29] [Server thread/INFO]: [Multiverse-Core] Help dumptruckman keep this project alive. Become a patron! https://www.patreon.com/dumptruckman
+[16:08:29] [Server thread/INFO]: [Multiverse-Core] One time donations are also appreciated: https://www.paypal.me/dumptruckman
+[16:08:29] [Server thread/INFO]: [PetMaster] Enabling PetMaster v1.10.2
+[16:08:29] [Server thread/INFO]: [PetMaster] Registering listeners...
+[16:08:29] [Server thread/INFO]: [PetMaster] Backing up and loading configuration files...
+[16:08:29] [Server thread/INFO]: [PetMaster] Successfully created config.yml file.
+[16:08:29] [Server thread/INFO]: [PetMaster] Successfully created lang.yml file.
+[16:08:29] [Thread-16/INFO]: [PetMaster] Checking for plugin update...
+[16:08:29] [Server thread/INFO]: [PetMaster] Plugin enabled and ready to run! Took 15ms.
+[16:08:29] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [[0;32;22mMyPet[m] [mEnabling MyPet v3.9[m
+[16:08:29] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [[0;32;22mMyPet[m] [mNo Update available.[m
+[16:08:29] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [[0;32;22mMyPet[m] [mCustom entity registry found: net.minecraft.server.v1_14_R1.RegistryBlocks[m
+[16:08:29] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [[0;32;22mMyPet[m] [mCompat mode for v1_14_R1 loaded.[m
+[16:08:29] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [[0;32;22mMyPet[m] [mExp calculation mode: MyPet[m
+[16:08:29] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [[0;32;22mMyPet[m] [mCurrent Exp-Cache is invalid, it will be recalculated.[m
+[16:08:29] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [[0;32;22mMyPet[m] [mLoading WorldGroups...[m
+[16:08:29] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [[0;32;22mMyPet[m] [m   added [0;33;22mworld[m to 'default' group.[m
+[16:08:29] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [[0;32;22mMyPet[m] [m   added [0;33;22mworld_nether[m to 'default' group.[m
+[16:08:29] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [[0;32;22mMyPet[m] [m   added [0;33;22mworld_the_end[m to 'default' group.[m
+[16:08:29] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [[0;32;22mMyPet[m] [mDefault skilltree files created.[m
+[16:08:29] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [[0;32;22mMyPet[m] [mConnect to SQLite database...[m
+[16:08:29] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [[0;32;22mMyPet[m] [mSQLite connection successful.[m
+[16:08:29] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [[0;32;22mMyPet[m] [mVault (1.7.2-b107) (Economy: TheNewEconomy) (Permissions: SuperPerms) hook activated.[m
+[16:08:29] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [[0;32;22mMyPet[m] [mVersion 3.9-b1525[0;32;1m ENABLED[m
+[16:08:29] [Server thread/INFO]: [Essentials] Enabling Essentials v2.17.2.45
+[16:08:29] [Server thread/INFO]: [Essentials] Creating config from template: /home/twiggeh/Downloads/Sync Server/CurtisCultMinecraftServer/plugins/Essentials/config.yml
+[16:08:29] [Server thread/INFO]: [Essentials] Creating config from template: /home/twiggeh/Downloads/Sync Server/CurtisCultMinecraftServer/plugins/Essentials/kits.yml
+[16:08:29] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[16:08:29] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[16:08:29] [Server thread/INFO]: [Essentials] Starting Essentials ban format conversion
+[16:08:29] [pool-12-thread-1/INFO]: [Essentials] Creating empty config: /home/twiggeh/Downloads/Sync Server/CurtisCultMinecraftServer/plugins/Essentials/upgrades-done.yml
+[16:08:29] [Server thread/INFO]: [Essentials] Starting usermap repair
+[16:08:29] [Server thread/WARN]: [Essentials] Missing userdata folder, aborting
+[16:08:29] [Server thread/INFO]: [Essentials] Creating config from template: /home/twiggeh/Downloads/Sync Server/CurtisCultMinecraftServer/plugins/Essentials/worth.yml
+[16:08:29] [Server thread/INFO]: [Essentials] Using 1.8.3+ BlockStateMeta provider as mob spawner provider.
+[16:08:29] [Server thread/INFO]: [Essentials] Using 1.13+ flat spawn egg provider as spawn egg provider.
+[16:08:29] [Server thread/INFO]: [Essentials] Using 1.9+ BasePotionData provider as potion meta provider.
+[16:08:29] [Server thread/INFO]: [Essentials] Loaded 21019 items from items.json.
+[16:08:29] [Server thread/INFO]: [Essentials] Creating config from template: /home/twiggeh/Downloads/Sync Server/CurtisCultMinecraftServer/plugins/Essentials/custom_items.yml
+[16:08:29] [Server thread/INFO]: [Essentials] Using locale en_US
+[16:08:29] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[16:08:29] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[16:08:29] [Server thread/INFO]: [Vault] [Vault][Economy] Essentials Economy hooked.
+[16:08:29] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[16:08:29] [Server thread/INFO]: [Essentials] Payment method found (Vault - Economy: TheNewEconomy version: 1.7.2-b107)
+[16:08:29] [Server thread/INFO]: [Multiverse-SignPortals] Enabling Multiverse-SignPortals v4.1.0-b748
+[16:08:30] [Server thread/INFO]: [Multiverse-SignPortals 4.1.0-b748]  Enabled - By Rigby and fernferret
+[16:08:30] [Server thread/INFO]: [VeinMiner] Enabling VeinMiner v1.15.0
+[16:08:30] [Server thread/INFO]: [VeinMiner] Registering events
+[16:08:30] [Server thread/INFO]: [VeinMiner] Registering commands
+[16:08:30] [Server thread/INFO]: [VeinMiner] Vault found. Attempting to enable economy support...
+[16:08:30] [Server thread/INFO]: [VeinMiner] Economy found! Hooked successfully.
+[16:08:30] [Server thread/INFO]: [VeinMiner] Enabling Plugin Metrics
+[16:08:30] [Server thread/INFO]: [VeinMiner] Thanks for enabling Metrics! The anonymous stats are appreciated
+[16:08:30] [Server thread/INFO]: [VeinMiner] Loading configuration options to local memory
+[16:08:30] [Server thread/INFO]: [VeinMiner] Performing an update check!
+[16:08:30] [Server thread/INFO]: [TheNewEconomy] Enabling TheNewEconomy v0.1.1.9
+[16:08:30] [ForkJoinPool.commonPool-worker-19/INFO]: [VeinMiner] Your version of VeinMiner (1.15.0) is up to date!
+[16:08:30] [Server thread/INFO]: Loading Configurations.
+[16:08:30] [Server thread/INFO]: Initializing Configurations.
+[16:08:30] [Server thread/INFO]: Initialized config.yml
+[16:08:30] [Server thread/INFO]: Initialized commands.yml
+[16:08:30] [Server thread/INFO]: Initialized messages.yml
+[16:08:30] [Server thread/INFO]: Initialized players.yml
+[16:08:30] [Server thread/INFO]: Initialized worlds.yml
+[16:08:30] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+[16:08:30] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+[16:08:30] [Server thread/INFO]: Updating tables, please hold.
+[16:08:30] [Server thread/INFO]: Finished updating tables.
+[16:08:30] [Server thread/INFO]: [TheNewEconomy] Finished loading data!
+[16:08:30] [Server thread/INFO]: [TheNewEconomy] Finished loading data!
+[16:08:31] [Server thread/INFO]: [TheNewEconomy] Created server economy account.
+[16:08:31] [Server thread/INFO]: [TheNewEconomy] The New Economy has been enabled!
+[16:08:31] [Server thread/INFO]: [TempFly] Enabling TempFly v2.0.1
+[16:08:31] [Server thread/WARN]: [TempFly] Your data file needs to update to support the current version. Updating to version 2.0 now...
+[16:08:31] [Server thread/INFO]: [TempFly] Creating a backup of your data file...
+[16:08:31] [Server thread/INFO]: Done (9.322s)! For help, type "help"
+[16:08:31] [Server thread/INFO]: Timings Reset
+[16:08:32] [Craft Scheduler Thread - 2/INFO]: [Vault] Checking for Updates ... 
+[16:08:32] [Craft Scheduler Thread - 2/INFO]: [Vault] No new version available
+[16:08:33] [Craft Scheduler Thread - 4/INFO]: Initialized items.yml
+[16:08:52] [User Authenticator #1/INFO]: UUID of player Ricky107 is a122b62e-4a26-4c9f-957f-19b1d497032b
+[16:08:53] [Server thread/INFO]: Ricky107[/145.87.253.6:54483] logged in with entity id 299 at ([world]-222.47239381056235, 64.0, 526.8558133123522)
+[16:08:53] [Server thread/WARN]: [Essentials] File motd.txt does not exist. Creating one for you.
+[16:08:53] [pool-12-thread-1/INFO]: [Essentials] Creating empty config: /home/twiggeh/Downloads/Sync Server/CurtisCultMinecraftServer/plugins/Essentials/userdata/a122b62e-4a26-4c9f-957f-19b1d497032b.yml
+[16:08:55] [User Authenticator #1/INFO]: UUID of player Twiggeh99 is c2bd7ead-239f-41ab-8740-57fa1fec124a
+[16:08:55] [Server thread/INFO]: Twiggeh99[/192.168.0.1:46830] logged in with entity id 432 at ([world]-149.0482317397348, 65.0, 557.3746209962043)
+[16:08:55] [pool-12-thread-1/INFO]: [Essentials] Creating empty config: /home/twiggeh/Downloads/Sync Server/CurtisCultMinecraftServer/plugins/Essentials/userdata/c2bd7ead-239f-41ab-8740-57fa1fec124a.yml
+[16:09:00] [User Authenticator #1/INFO]: UUID of player Dhretsam is bbbacd2d-cc8d-4445-94d1-8ffe152fcd22
+[16:09:02] [Server thread/INFO]: Dhretsam[/87.156.41.175:50295] logged in with entity id 442 at ([world]-181.51297667004533, 64.0, 510.8745284403476)
+[16:09:02] [pool-12-thread-1/INFO]: [Essentials] Creating empty config: /home/twiggeh/Downloads/Sync Server/CurtisCultMinecraftServer/plugins/Essentials/userdata/bbbacd2d-cc8d-4445-94d1-8ffe152fcd22.yml
+[16:09:28] [Server thread/INFO]: Ricky107 issued server command: /shop
+[16:09:36] [Server thread/WARN]: Twiggeh99 moved too quickly! -39.57732622047723,-3.5372295340318516,-14.753276173410427
+[16:09:47] [Server thread/INFO]: Ricky107 issued server command: /dmap
+[16:09:47] [Server thread/ERROR]: null
+org.bukkit.command.CommandException: Unhandled exception executing command 'dmap' in plugin dynmap v2.5-Dev201706100405
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:47) ~[patched_1.14.4.jar:git-Paper-243]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:159) ~[patched_1.14.4.jar:git-Paper-243]
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.dispatchCommand(CraftServer.java:739) ~[patched_1.14.4.jar:git-Paper-243]
+	at net.minecraft.server.v1_14_R1.PlayerConnection.handleCommand(PlayerConnection.java:1804) ~[patched_1.14.4.jar:git-Paper-243]
+	at net.minecraft.server.v1_14_R1.PlayerConnection.a(PlayerConnection.java:1612) ~[patched_1.14.4.jar:git-Paper-243]
+	at net.minecraft.server.v1_14_R1.PacketPlayInChat.a(PacketPlayInChat.java:47) ~[patched_1.14.4.jar:git-Paper-243]
+	at net.minecraft.server.v1_14_R1.PacketPlayInChat.a(PacketPlayInChat.java:5) ~[patched_1.14.4.jar:git-Paper-243]
+	at net.minecraft.server.v1_14_R1.PlayerConnectionUtils.lambda$ensureMainThread$0(PlayerConnectionUtils.java:23) ~[patched_1.14.4.jar:git-Paper-243]
+	at net.minecraft.server.v1_14_R1.TickTask.run(SourceFile:18) ~[patched_1.14.4.jar:git-Paper-243]
+	at net.minecraft.server.v1_14_R1.IAsyncTaskHandler.executeTask(IAsyncTaskHandler.java:136) ~[patched_1.14.4.jar:git-Paper-243]
+	at net.minecraft.server.v1_14_R1.IAsyncTaskHandlerReentrant.executeTask(SourceFile:23) ~[patched_1.14.4.jar:git-Paper-243]
+	at net.minecraft.server.v1_14_R1.IAsyncTaskHandler.executeNext(IAsyncTaskHandler.java:109) ~[patched_1.14.4.jar:git-Paper-243]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.aX(MinecraftServer.java:1029) ~[patched_1.14.4.jar:git-Paper-243]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.executeNext(MinecraftServer.java:1022) ~[patched_1.14.4.jar:git-Paper-243]
+	at net.minecraft.server.v1_14_R1.IAsyncTaskHandler.awaitTasks(IAsyncTaskHandler.java:119) ~[patched_1.14.4.jar:git-Paper-243]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.sleepForTick(MinecraftServer.java:1006) ~[patched_1.14.4.jar:git-Paper-243]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:929) ~[patched_1.14.4.jar:git-Paper-243]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.lang.NullPointerException
+	at org.dynmap.bukkit.DynmapPlugin.onCommand(DynmapPlugin.java:937) ~[?:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[patched_1.14.4.jar:git-Paper-243]
+	... 17 more
+[16:09:53] [Server thread/INFO]: Ricky107 issued server command: /?
+[16:09:56] [Server thread/INFO]: Twiggeh99 lost connection: Disconnected
+[16:09:56] [Server thread/INFO]: Twiggeh99 left the game
+[16:09:59] [Server thread/INFO]: Dhretsam issued server command: /time set day
+[16:10:00] [User Authenticator #2/INFO]: UUID of player Twiggeh99 is c2bd7ead-239f-41ab-8740-57fa1fec124a
+[16:10:01] [Server thread/INFO]: Twiggeh99[/127.0.0.1:36374] logged in with entity id 481 at ([world]-188.11567240339681, 64.0, 549.8326600549618)
+[16:10:24] [Server thread/INFO]: Twiggeh99 issued server command: /tpa Dhretsam
+[16:10:31] [Server thread/INFO]: Ricky107 lost connection: Timed out
+[16:10:31] [Server thread/INFO]: Ricky107 left the game
+[16:10:31] [Server thread/INFO]: Dhretsam lost connection: Timed out
+[16:10:31] [Server thread/INFO]: Dhretsam left the game
+[16:16:01] [User Authenticator #3/INFO]: UUID of player Dhretsam is bbbacd2d-cc8d-4445-94d1-8ffe152fcd22
+[16:16:01] [Server thread/INFO]: Dhretsam[/87.156.41.175:50436] logged in with entity id 824 at ([world]-186.00868442783982, 64.3415999853611, 514.0882138421059)
+[16:16:33] [Server thread/INFO]: Twiggeh99 lost connection: Disconnected
+[16:16:33] [Server thread/INFO]: Twiggeh99 left the game
+[16:17:28] [User Authenticator #4/INFO]: UUID of player TechnicalPlayz is 32462912-02d5-4f06-8148-5e56c5a1e635
+[16:17:29] [Server thread/INFO]: TechnicalPlayz[/94.214.51.140:55326] logged in with entity id 985 at ([world]-194.26473867920274, 66.87208890136314, 615.0904992423254)
+[16:17:29] [pool-12-thread-1/INFO]: [Essentials] Creating empty config: /home/twiggeh/Downloads/Sync Server/CurtisCultMinecraftServer/plugins/Essentials/userdata/32462912-02d5-4f06-8148-5e56c5a1e635.yml
+[16:18:10] [User Authenticator #4/INFO]: UUID of player Ricky107 is a122b62e-4a26-4c9f-957f-19b1d497032b
+[16:18:10] [Server thread/INFO]: Ricky107[/145.87.253.6:55061] logged in with entity id 1087 at ([world]-222.89228927045, 64.0, 528.073302408612)
+[16:19:43] [Server thread/INFO]: [Server] is this the correct server or the dev server
+[16:21:15] [Server thread/INFO]: [Server] wait
+[16:21:23] [Async Chat Thread - #0/INFO]: []<Dhretsam> what
+[16:21:25] [Server thread/INFO]: [Server] what happens if my pc goes to sleep
+[16:21:31] [Server thread/INFO]: [Server] ehrmm
+[16:21:32] [Async Chat Thread - #0/INFO]: []<TechnicalPlayz> lets see
+[16:21:50] [Server thread/INFO]: [Server] lemme find that setting real quick and turn it of
+[16:22:01] [Async Chat Thread - #0/INFO]: []<Ricky107> so what plugins do we have
+[16:22:08] [Server thread/INFO]: [Server] /plugind
+[16:22:09] [Server thread/INFO]: [Server] /plugins
+[16:22:13] [Server thread/INFO]: Ricky107 issued server command: /plugins
+[16:22:30] [Async Chat Thread - #0/INFO]: []<Ricky107> ooh silkspawners now we can mine them
+[16:22:38] [Async Chat Thread - #0/INFO]: []<TechnicalPlayz> ah
+[16:22:39] [Server thread/INFO]: [Server] :)
+[16:22:55] [Server thread/INFO]: [Server] dont break the world there are no backups
+[16:22:56] [Server thread/INFO]: Ricky107 issued server command: /dynmap
+[16:22:56] [Server thread/ERROR]: null
+org.bukkit.command.CommandException: Unhandled exception executing command 'dynmap' in plugin dynmap v2.5-Dev201706100405
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:47) ~[patched_1.14.4.jar:git-Paper-243]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:159) ~[patched_1.14.4.jar:git-Paper-243]
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.dispatchCommand(CraftServer.java:739) ~[patched_1.14.4.jar:git-Paper-243]
+	at net.minecraft.server.v1_14_R1.PlayerConnection.handleCommand(PlayerConnection.java:1804) ~[patched_1.14.4.jar:git-Paper-243]
+	at net.minecraft.server.v1_14_R1.PlayerConnection.a(PlayerConnection.java:1612) ~[patched_1.14.4.jar:git-Paper-243]
+	at net.minecraft.server.v1_14_R1.PacketPlayInChat.a(PacketPlayInChat.java:47) ~[patched_1.14.4.jar:git-Paper-243]
+	at net.minecraft.server.v1_14_R1.PacketPlayInChat.a(PacketPlayInChat.java:5) ~[patched_1.14.4.jar:git-Paper-243]
+	at net.minecraft.server.v1_14_R1.PlayerConnectionUtils.lambda$ensureMainThread$0(PlayerConnectionUtils.java:23) ~[patched_1.14.4.jar:git-Paper-243]
+	at net.minecraft.server.v1_14_R1.TickTask.run(SourceFile:18) ~[patched_1.14.4.jar:git-Paper-243]
+	at net.minecraft.server.v1_14_R1.IAsyncTaskHandler.executeTask(IAsyncTaskHandler.java:136) ~[patched_1.14.4.jar:git-Paper-243]
+	at net.minecraft.server.v1_14_R1.IAsyncTaskHandlerReentrant.executeTask(SourceFile:23) ~[patched_1.14.4.jar:git-Paper-243]
+	at net.minecraft.server.v1_14_R1.IAsyncTaskHandler.executeNext(IAsyncTaskHandler.java:109) ~[patched_1.14.4.jar:git-Paper-243]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.aX(MinecraftServer.java:1029) ~[patched_1.14.4.jar:git-Paper-243]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.executeNext(MinecraftServer.java:1022) ~[patched_1.14.4.jar:git-Paper-243]
+	at net.minecraft.server.v1_14_R1.IAsyncTaskHandler.awaitTasks(IAsyncTaskHandler.java:119) ~[patched_1.14.4.jar:git-Paper-243]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.sleepForTick(MinecraftServer.java:1006) ~[patched_1.14.4.jar:git-Paper-243]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:929) ~[patched_1.14.4.jar:git-Paper-243]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.lang.NullPointerException
+	at org.dynmap.bukkit.DynmapPlugin.onCommand(DynmapPlugin.java:937) ~[?:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[patched_1.14.4.jar:git-Paper-243]
+	... 17 more
+[16:23:01] [Async Chat Thread - #0/INFO]: []<TechnicalPlayz> oof i'll try
+[16:23:10] [Server thread/INFO]: [Server] also do not run dynmap
+[16:23:17] [Async Chat Thread - #0/INFO]: []<Ricky107> what is thar
+[16:23:23] [Server thread/INFO]: [Server] I'm pretty sure it will break the server
+[16:23:25] [Server thread/INFO]: Ricky107 was blown up by Creeper
+[16:23:26] [Async Chat Thread - #0/INFO]: []<TechnicalPlayz> oof
+[16:23:32] [Async Chat Thread - #0/INFO]: []<TechnicalPlayz> who's creeper exploded?
+[16:23:33] [Server thread/INFO]: [Server] respects in chat
+[16:23:45] [Async Chat Thread - #0/INFO]: []<TechnicalPlayz> i guess rickys
+[16:23:46] [Server thread/INFO]: [1m[33mSinglePlayerSleep 1.13_2.13.38[0m perm essentials.sleepingignored=true[0m
+[16:23:46] [Server thread/INFO]: [1m[33mSinglePlayerSleep 1.13_2.13.38[0m TechnicalPlayz is sleeping.[0m
+[16:24:04] [Async Chat Thread - #0/INFO]: []<Ricky107> wait inv sort
+[16:24:11] [Async Chat Thread - #0/INFO]: []<TechnicalPlayz> oof ricky
+[16:24:31] [Async Chat Thread - #0/INFO]: []<TechnicalPlayz> oh god im an idiot
+[16:24:51] [Async Chat Thread - #0/INFO]: []<TechnicalPlayz> i chopped down lots of logs to place them and i was such an idiot to acccidentally make planks out of it
+[16:24:57] [Async Chat Thread - #0/INFO]: []<Ricky107> xD
+[16:25:03] [Async Chat Thread - #0/INFO]: []<Ricky107> timber is nicee
+[16:25:06] [Server thread/INFO]: [Server] middle click into any inventory, it will sort
+[16:25:07] [Async Chat Thread - #0/INFO]: []<Dhretsam> i dont't know you long enough to agree XD
+[16:25:08] [Async Chat Thread - #0/INFO]: []<TechnicalPlayz> what is timber
+[16:25:22] [Async Chat Thread - #0/INFO]: []<Ricky107> u cna chop a tree down i none hit
+[16:25:25] [Async Chat Thread - #0/INFO]: []<Ricky107> well one break
+[16:25:32] [Async Chat Thread - #0/INFO]: []<TechnicalPlayz> oh i didnt know that was called timber
+[16:26:58] [Server thread/INFO]: [Server] I did turn of sleep
+[16:27:04] [Async Chat Thread - #1/INFO]: []<TechnicalPlayz> ?
+[16:27:13] [Async Chat Thread - #1/INFO]: []<TechnicalPlayz> why not just one person sleep
+[16:27:13] [Server thread/INFO]: [Server] lets hope it won't kick you when the screens turn of
+[16:27:23] [Server thread/INFO]: [Server] I'm talking about pc sleep
+[16:27:26] [Async Chat Thread - #1/INFO]: []<TechnicalPlayz> oh
+[16:27:28] [Async Chat Thread - #1/INFO]: []<TechnicalPlayz> xD
+[16:30:10] [Server thread/INFO]: Ricky107 drowned
+[16:35:16] [Server thread/INFO]: [1m[33mSinglePlayerSleep 1.13_2.13.38[0m perm essentials.sleepingignored=true[0m
+[16:35:16] [Server thread/INFO]: [1m[33mSinglePlayerSleep 1.13_2.13.38[0m Dhretsam is sleeping.[0m
+[16:44:31] [Async Chat Thread - #2/INFO]: []<Ricky107> im just staring from my window at your beautiful house TechnicalPlayz xD
+[16:44:36] [Async Chat Thread - #2/INFO]: []<TechnicalPlayz> xD
+[16:47:00] [Async Chat Thread - #3/INFO]: []<TechnicalPlayz> should i keep this layer open like this or should i go for a similar style as the first layer?
+[16:47:08] [Server thread/INFO]: [1m[33mSinglePlayerSleep 1.13_2.13.38[0m perm essentials.sleepingignored=true[0m
+[16:47:08] [Server thread/INFO]: [1m[33mSinglePlayerSleep 1.13_2.13.38[0m Dhretsam is sleeping.[0m
+[16:47:24] [Async Chat Thread - #3/INFO]: []<Ricky107> you mean this?
+[16:47:31] [Async Chat Thread - #3/INFO]: []<TechnicalPlayz> yes this is the open style
+[16:47:39] [Async Chat Thread - #3/INFO]: []<Ricky107> i quite like it ye
+[16:47:44] [Async Chat Thread - #3/INFO]: []<TechnicalPlayz> :D
+[16:48:16] [Async Chat Thread - #3/INFO]: []<Ricky107> i also like that build into the ground
+[16:48:21] [Async Chat Thread - #3/INFO]: []<Dhretsam> the open style looks good
+[16:48:28] [Async Chat Thread - #3/INFO]: []<TechnicalPlayz> :D
+[16:48:46] [Async Chat Thread - #3/INFO]: []<TechnicalPlayz> btw ricky look at this side
+[16:50:13] [Async Chat Thread - #4/INFO]: []<Ricky107> :o
+[16:50:22] [Async Chat Thread - #4/INFO]: []<Ricky107> a balcony
+[16:50:29] [Async Chat Thread - #4/INFO]: []<TechnicalPlayz> yap :)
+[16:50:33] [Async Chat Thread - #4/INFO]: []<Ricky107> noice
+[16:50:37] [Async Chat Thread - #4/INFO]: []<TechnicalPlayz> thanks :D
+[16:50:48] [Async Chat Thread - #4/INFO]: []<Ricky107> i should start building
+[16:50:56] [Async Chat Thread - #4/INFO]: []<TechnicalPlayz> probably
+[16:51:05] [Async Chat Thread - #4/INFO]: []<Ricky107> we need to find a jugnle
+[16:51:14] [Async Chat Thread - #4/INFO]: []<Ricky107> jungle*
+[16:51:17] [Async Chat Thread - #4/INFO]: []<TechnicalPlayz> why? do you like jungle wood?
+[16:51:25] [Async Chat Thread - #4/INFO]: []<Ricky107> no but id like bambooo
+[16:51:29] [Async Chat Thread - #4/INFO]: []<TechnicalPlayz> oh
+[16:51:39] [Async Chat Thread - #4/INFO]: []<Ricky107> and the jungle is just awesome
+[16:51:45] [Server thread/INFO]: Ricky107 issued server command: /seed
+[16:51:48] [Async Chat Thread - #4/INFO]: []<TechnicalPlayz> i dont like the jungle tbh xD
+[16:52:10] [Async Chat Thread - #4/INFO]: []<Ricky107> prob my fav biome it looks cool but thats about it
+[16:52:29] [Async Chat Thread - #4/INFO]: []<TechnicalPlayz> i like spruce biome, i forgot the name of it
+[16:52:35] [Async Chat Thread - #4/INFO]: []<Ricky107> tiga
+[16:52:39] [Async Chat Thread - #4/INFO]: []<Ricky107> or something
+[16:52:40] [Async Chat Thread - #4/INFO]: []<TechnicalPlayz> oh ye taiga
+[16:52:44] [Async Chat Thread - #4/INFO]: []<Ricky107> im being spit at
+[16:52:49] [Async Chat Thread - #4/INFO]: []<TechnicalPlayz> lol
+[16:52:56] [Async Chat Thread - #4/INFO]: []<Ricky107> ye that one is nice too
+[16:53:27] [Async Chat Thread - #4/INFO]: []<Ricky107> umh
+[16:53:32] [Async Chat Thread - #4/INFO]: []<Ricky107> tech xD
+[16:53:38] [Async Chat Thread - #4/INFO]: []<TechnicalPlayz> xD
+[16:53:42] [Async Chat Thread - #4/INFO]: []<TechnicalPlayz> it loves you xD
+[16:53:47] [Async Chat Thread - #4/INFO]: []<Ricky107> its in a boat
+[16:54:01] [Server thread/INFO]: Ricky107 was slain by Trader Llama
+[16:54:01] [Async Chat Thread - #4/INFO]: []<Dhretsam> XD
+[16:54:02] [Async Chat Thread - #4/INFO]: []<TechnicalPlayz> lol its looking up and spitting backwards xD
+[16:54:23] [Async Chat Thread - #4/INFO]: []<Ricky107> i just got killed by spit
+[16:54:42] [Async Chat Thread - #4/INFO]: []<TechnicalPlayz> whaat, yesterday i had so much meat in my chests, i only took sheep flesh and all my other meat is gone
+[16:54:53] [Async Chat Thread - #4/INFO]: []<TechnicalPlayz> yeah isnt that lovely
+[16:54:57] [Async Chat Thread - #4/INFO]: []<Ricky107> i live on bread so i dont have it
+[16:55:22] [Async Chat Thread - #4/INFO]: []<TechnicalPlayz> well i guess i gotta hunt again
+[16:56:01] [Async Chat Thread - #4/INFO]: []<TechnicalPlayz> why are there no animals when i need them xD
+[16:56:05] [Async Chat Thread - #4/INFO]: []<Dhretsam> i've got wheat and carrots you can harvest
+[16:56:11] [Async Chat Thread - #4/INFO]: []<Ricky107> because u killed them al thec
+[16:56:21] [Async Chat Thread - #4/INFO]: []<TechnicalPlayz> oh okay, thanks :D
+[16:56:32] [Async Chat Thread - #4/INFO]: []<TechnicalPlayz> no that was yesterday, in minecraft days a few weeks xD
+[16:56:38] [Async Chat Thread - #4/INFO]: []<Ricky107> shh
+[16:57:12] [Async Chat Thread - #4/INFO]: []<Ricky107> ima go treasure hunt
+[16:57:23] [Async Chat Thread - #4/INFO]: []<TechnicalPlayz> alright, i'll join when i got some food
+[16:57:54] [Async Chat Thread - #4/INFO]: []<Ricky107> remember how i said i wanted bamboo
+[16:58:04] [Async Chat Thread - #4/INFO]: []<TechnicalPlayz> you found it?
+[16:58:11] [Async Chat Thread - #4/INFO]: []<Ricky107> first chest it found is full of it xD
+[16:58:17] [Server thread/INFO]: [1m[33mSinglePlayerSleep 1.13_2.13.38[0m perm essentials.sleepingignored=true[0m
+[16:58:17] [Server thread/INFO]: [1m[33mSinglePlayerSleep 1.13_2.13.38[0m Dhretsam is sleeping.[0m
+[16:58:17] [Async Chat Thread - #4/INFO]: []<TechnicalPlayz> xD
+[16:58:25] [Async Chat Thread - #4/INFO]: []<Ricky107> ohh and a suspisous stew
+[16:58:40] [Async Chat Thread - #4/INFO]: []<TechnicalPlayz> thats suspicious
+[16:58:49] [Async Chat Thread - #4/INFO]: []<Ricky107> jump boots in water doest really help
+[16:58:59] [Async Chat Thread - #4/INFO]: []<TechnicalPlayz> not really
+[17:01:15] [Async Chat Thread - #5/INFO]: []<Ricky107> i wanna live underwater it looks so cool but also its horrible
+[17:01:42] [Async Chat Thread - #5/INFO]: []<Dhretsam> building there is so stressful
+[17:01:45] [Async Chat Thread - #5/INFO]: []<TechnicalPlayz> yeah and it doesnt go well with redstone xD
+[17:01:51] [Async Chat Thread - #5/INFO]: []<Ricky107> xD
+[17:01:55] [Async Chat Thread - #5/INFO]: []<Ricky107> exacty
+[17:02:21] [Async Chat Thread - #5/INFO]: []<Ricky107> this ship very intact and not that deep :o
+[17:02:27] [Async Chat Thread - #5/INFO]: []<TechnicalPlayz> :o
+[17:02:56] [Async Chat Thread - #5/INFO]: []<Ricky107> its fully complete and had good loot too
+[17:03:02] [Async Chat Thread - #5/INFO]: []<TechnicalPlayz> :D
+[17:03:08] [Server thread/INFO]: [Server] heyyyy
+[17:03:11] [Async Chat Thread - #5/INFO]: []<Ricky107> hii
+[17:03:13] [Async Chat Thread - #5/INFO]: []<TechnicalPlayz> i think i got enough food
+[17:03:14] [Async Chat Thread - #5/INFO]: []<TechnicalPlayz> heyy
+[17:03:30] [Async Chat Thread - #5/INFO]: []<TechnicalPlayz> hmmm i guess
+[17:03:40] [User Authenticator #5/INFO]: UUID of player Twiggeh99 is c2bd7ead-239f-41ab-8740-57fa1fec124a
+[17:03:40] [Server thread/INFO]: Twiggeh99[/127.0.0.1:37174] logged in with entity id 8804 at ([world]-144.13513017936071, 64.5, 557.1683447012242)
+[17:03:42] [Async Chat Thread - #5/INFO]: []<Ricky107> a legit one or
+[17:03:45] [Async Chat Thread - #5/INFO]: []<TechnicalPlayz> but not in survival right?
+[17:03:52] [Async Chat Thread - #5/INFO]: []<Ricky107> oh
+[17:04:15] [Server thread/INFO]: TechnicalPlayz issued server command: /gamemode 2
+[17:04:18] [Server thread/INFO]: TechnicalPlayz issued server command: /gamemode 1
+[17:04:20] [Async Chat Thread - #5/INFO]: []<Ricky107> and then there is my ugly house
+[17:04:24] [Async Chat Thread - #5/INFO]: []<TechnicalPlayz> okay lets build the spawn
+[17:04:28] [Server thread/INFO]: Twiggeh99 issued server command: /tp Ricky107
+[17:04:35] [Server thread/INFO]: TechnicalPlayz issued server command: /tp Ricky107
+[17:04:41] [Async Chat Thread - #5/INFO]: []<Ricky107> its in the village
+[17:04:49] [Server thread/WARN]: 43430f72-4d79-4a96-9a5f-99f1582a0c13 (vehicle of TechnicalPlayz) moved wrongly!
+[17:04:54] [Server thread/INFO]: Twiggeh99 issued server command: /tp Dhretsam
+[17:05:01] [Async Chat Thread - #5/INFO]: []<TechnicalPlayz> what style of spawn should we go for?
+[17:05:04] [Server thread/INFO]: TechnicalPlayz issued server command: /tp TechnicalPlayz
+[17:05:09] [Server thread/INFO]: TechnicalPlayz issued server command: /tp Twiggeh99
+[17:05:16] [Async Chat Thread - #5/INFO]: []<Ricky107> the 2 story one
+[17:05:19] [Async Chat Thread - #5/INFO]: []<TechnicalPlayz> okie
+[17:05:32] [Async Chat Thread - #5/INFO]: []<TechnicalPlayz> wait what?
+[17:05:43] [Async Chat Thread - #5/INFO]: []<TechnicalPlayz> here
+[17:06:00] [Async Chat Thread - #5/INFO]: []<TechnicalPlayz> bedrock?
+[17:06:19] [Server thread/INFO]: Twiggeh99 issued server command: //ceil
+[17:06:35] [Async Chat Thread - #5/INFO]: []<TechnicalPlayz> ./thru
+[17:06:38] [Server thread/INFO]: TechnicalPlayz issued server command: /thru
+[17:06:39] [Server thread/INFO]: Twiggeh99 issued server command: //thru
+[17:06:41] [Server thread/INFO]: TechnicalPlayz issued server command: /thru
+[17:06:43] [Server thread/INFO]: Twiggeh99 issued server command: /thru
+[17:06:44] [Async Chat Thread - #5/INFO]: []<TechnicalPlayz> it does for me
+[17:06:49] [Async Chat Thread - #5/INFO]: []<TechnicalPlayz> it does for me
+[17:06:50] [Server thread/INFO]: TechnicalPlayz issued server command: /thru
+[17:06:55] [Server thread/INFO]: TechnicalPlayz issued server command: /thru
+[17:06:57] [Server thread/INFO]: TechnicalPlayz issued server command: /thru
+[17:06:58] [Async Chat Thread - #5/INFO]: []<Ricky107> do f3 + n that works too
+[17:07:00] [Async Chat Thread - #5/INFO]: []<TechnicalPlayz> this is enjoyable
+[17:07:06] [Server thread/INFO]: TechnicalPlayz issued server command: /thru
+[17:07:07] [Server thread/INFO]: Twiggeh99 issued server command: /gamemode spectator
+[17:07:08] [Server thread/INFO]: Twiggeh99 issued server command: /gamemode creative
+[17:07:09] [Server thread/INFO]: TechnicalPlayz issued server command: /thru
+[17:07:13] [Server thread/INFO]: Twiggeh99 issued server command: /gamemode spectator
+[17:07:15] [Server thread/INFO]: Twiggeh99 issued server command: /gamemode creative
+[17:07:17] [Server thread/INFO]: TechnicalPlayz issued server command: /gamemode spectator
+[17:07:21] [Async Chat Thread - #5/INFO]: []<Ricky107> no
+[17:07:21] [Server thread/INFO]: TechnicalPlayz issued server command: /gamemode creative
+[17:07:25] [Async Chat Thread - #5/INFO]: []<Ricky107> only creative
+[17:07:25] [Server thread/INFO]: Twiggeh99 issued server command: /gamemode spectator
+[17:07:26] [Async Chat Thread - #5/INFO]: []<TechnicalPlayz> no only opped people
+[17:07:29] [Server thread/INFO]: Twiggeh99 issued server command: /gamemode creative
+[17:07:36] [Async Chat Thread - #5/INFO]: []<TechnicalPlayz> idk
+[17:07:39] [Async Chat Thread - #5/INFO]: []<TechnicalPlayz> this is twigs work
+[17:08:06] [Server thread/INFO]: Twiggeh99 issued server command: /mv generate
+[17:08:12] [Server thread/INFO]: Twiggeh99 issued server command: /mv generate ?
+[17:08:13] [Server thread/INFO]: TechnicalPlayz issued server command: /thru
+[17:08:20] [Server thread/INFO]: Twiggeh99 issued server command: /mv generate ?
+[17:08:27] [Server thread/INFO]: Twiggeh99 issued server command: /mv help
+[17:08:33] [Server thread/INFO]: Twiggeh99 issued server command: /mv create ?
+[17:08:46] [Server thread/INFO]: Twiggeh99 issued server command: /mv create secret normal -t flat
+[17:08:46] [Server thread/INFO]: Twiggeh99: Starting creation of world 'secret'...
+[17:08:46] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'secret' - Env: NORMAL - Type: FLAT
+[17:08:46] [Server thread/INFO]: -------- World Settings For [secret] --------
+[17:08:46] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[17:08:46] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[17:08:46] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[17:08:46] [Server thread/INFO]: Max TNT Explosions: 100
+[17:08:46] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[17:08:46] [Server thread/INFO]: Experience Merge Radius: 3.0
+[17:08:46] [Server thread/INFO]: Mob Spawn Range: 8
+[17:08:46] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[17:08:46] [Server thread/INFO]: Cane Growth Modifier: 100%
+[17:08:46] [Server thread/INFO]: Melon Growth Modifier: 100%
+[17:08:46] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[17:08:46] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[17:08:46] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[17:08:46] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[17:08:46] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[17:08:46] [Server thread/INFO]: Potato Growth Modifier: 100%
+[17:08:46] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[17:08:46] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[17:08:46] [Server thread/INFO]: Vine Growth Modifier: 100%
+[17:08:46] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[17:08:46] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[17:08:46] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[17:08:46] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[17:08:46] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[17:08:46] [Server thread/INFO]: View Distance: 10
+[17:08:46] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[17:08:46] [Server thread/INFO]: Item Merge Radius: 2.5
+[17:08:46] [Server thread/INFO]: Item Despawn Rate: 6000
+[17:08:46] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[17:08:46] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[17:08:46] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[17:08:46] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [[0;32;22mMyPet[m] [madded [0;33;1msecret[m to '[0;33;1mdefault[m' group.[m
+[17:08:46] [Server thread/INFO]: Preparing start region for dimension 'secret'/minecraft:overworld
+[17:08:46] [Server-Worker-4/INFO]: Preparing spawn area: 0%
+[17:08:47] [Server-Worker-6/INFO]: Preparing spawn area: 6%
+[17:08:47] [Server-Worker-2/INFO]: Preparing spawn area: 12%
+[17:08:48] [Server-Worker-4/INFO]: Preparing spawn area: 17%
+[17:08:48] [Server-Worker-4/INFO]: Preparing spawn area: 23%
+[17:08:49] [Server-Worker-2/INFO]: Preparing spawn area: 30%
+[17:08:49] [Server-Worker-5/INFO]: Preparing spawn area: 36%
+[17:08:50] [Server-Worker-2/INFO]: Preparing spawn area: 41%
+[17:08:50] [Server-Worker-5/INFO]: Preparing spawn area: 48%
+[17:08:51] [Server-Worker-1/INFO]: Preparing spawn area: 55%
+[17:08:51] [Server-Worker-4/INFO]: Preparing spawn area: 62%
+[17:08:52] [Server-Worker-2/INFO]: Preparing spawn area: 68%
+[17:08:52] [Server-Worker-2/INFO]: Preparing spawn area: 74%
+[17:08:53] [Server-Worker-4/INFO]: Preparing spawn area: 80%
+[17:08:53] [Server-Worker-5/INFO]: Preparing spawn area: 86%
+[17:08:54] [Server-Worker-7/INFO]: Preparing spawn area: 92%
+[17:08:54] [Server-Worker-2/INFO]: Preparing spawn area: 98%
+[17:08:55] [Server-Worker-1/INFO]: Preparing spawn area: 100%
+[17:08:55] [Server-Worker-2/INFO]: Preparing spawn area: 100%
+[17:08:56] [Async Chat Thread - #6/INFO]: []<TechnicalPlayz> hehe
+[17:08:56] [Server-Worker-7/INFO]: Preparing spawn area: 100%
+[17:08:56] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-243 (MC: 1.14.4) ---
+[17:08:56] [Paper Watchdog Thread/ERROR]: The server has not responded for 10 seconds! Creating thread dump
+[17:08:56] [Paper Watchdog Thread/ERROR]: ------------------------------
+[17:08:56] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[17:08:56] [Paper Watchdog Thread/ERROR]: The server is waiting on these chunks: [[( -18,-4) in 'secret']]
+[17:08:56] [Paper Watchdog Thread/ERROR]: ------------------------------
+[17:08:56] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[17:08:56] [Paper Watchdog Thread/ERROR]: 	PID: 33 | Suspended: false | Native: false | State: TIMED_WAITING
+[17:08:56] [Paper Watchdog Thread/ERROR]: 	Stack:
+[17:08:56] [Paper Watchdog Thread/ERROR]: 		java.base@11.0.6/jdk.internal.misc.Unsafe.park(Native Method)
+[17:08:56] [Paper Watchdog Thread/ERROR]: 		java.base@11.0.6/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234)
+[17:08:56] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_14_R1.IAsyncTaskHandler.bi(IAsyncTaskHandler.java:131)
+[17:08:56] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_14_R1.IAsyncTaskHandler.awaitTasks(IAsyncTaskHandler.java:120)
+[17:08:56] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_14_R1.ChunkProviderServer.getChunkAt(ChunkProviderServer.java:285)
+[17:08:56] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_14_R1.World.getChunkAt(World.java:373)
+[17:08:56] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_14_R1.IWorldReader.getChunkAt(IWorldReader.java:80)
+[17:08:56] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_14_R1.World.getChunkAt(World.java:334)
+[17:08:56] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_14_R1.MinecraftServer.loadSpawn(MinecraftServer.java:609)
+[17:08:56] [Paper Watchdog Thread/ERROR]: 		app//org.bukkit.craftbukkit.v1_14_R1.CraftServer.createWorld(CraftServer.java:1020)
+[17:08:56] [Paper Watchdog Thread/ERROR]: 		app//org.bukkit.Bukkit.createWorld(Bukkit.java:492)
+[17:08:56] [Paper Watchdog Thread/ERROR]: 		app//org.bukkit.WorldCreator.createWorld(WorldCreator.java:284)
+[17:08:56] [Paper Watchdog Thread/ERROR]: 		com.onarandombox.MultiverseCore.utils.WorldManager.doLoad(WorldManager.java:467)
+[17:08:56] [Paper Watchdog Thread/ERROR]: 		com.onarandombox.MultiverseCore.utils.WorldManager.addWorld(WorldManager.java:269)
+[17:08:56] [Paper Watchdog Thread/ERROR]: 		com.onarandombox.MultiverseCore.commands.CreateCommand.runCommand(CreateCommand.java:114)
+[17:08:56] [Paper Watchdog Thread/ERROR]: 		com.onarandombox.commandhandler.CommandHandler.checkAndRunCommand(CommandHandler.java:296)
+[17:08:56] [Paper Watchdog Thread/ERROR]: 		com.onarandombox.commandhandler.CommandHandler.processFoundCommands(CommandHandler.java:143)
+[17:08:56] [Paper Watchdog Thread/ERROR]: 		com.onarandombox.commandhandler.CommandHandler.locateAndRunCommand(CommandHandler.java:93)
+[17:08:56] [Paper Watchdog Thread/ERROR]: 		com.onarandombox.MultiverseCore.MultiverseCore.onCommand(MultiverseCore.java:910)
+[17:08:56] [Paper Watchdog Thread/ERROR]: 		app//org.bukkit.command.PluginCommand.execute(PluginCommand.java:45)
+[17:08:56] [Paper Watchdog Thread/ERROR]: 		app//org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:159)
+[17:08:56] [Paper Watchdog Thread/ERROR]: 		app//org.bukkit.craftbukkit.v1_14_R1.CraftServer.dispatchCommand(CraftServer.java:739)
+[17:08:56] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_14_R1.PlayerConnection.handleCommand(PlayerConnection.java:1804)
+[17:08:56] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_14_R1.PlayerConnection.a(PlayerConnection.java:1612)
+[17:08:56] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_14_R1.PacketPlayInChat.a(PacketPlayInChat.java:47)
+[17:08:56] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_14_R1.PacketPlayInChat.a(PacketPlayInChat.java:5)
+[17:08:56] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_14_R1.PlayerConnectionUtils.lambda$ensureMainThread$0(PlayerConnectionUtils.java:23)
+[17:08:56] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_14_R1.PlayerConnectionUtils$$Lambda$3664/0x0000000801098840.run(Unknown Source)
+[17:08:56] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_14_R1.TickTask.run(SourceFile:18)
+[17:08:56] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_14_R1.IAsyncTaskHandler.executeTask(IAsyncTaskHandler.java:136)
+[17:08:56] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_14_R1.IAsyncTaskHandlerReentrant.executeTask(SourceFile:23)
+[17:08:56] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_14_R1.IAsyncTaskHandler.executeNext(IAsyncTaskHandler.java:109)
+[17:08:56] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_14_R1.MinecraftServer.aX(MinecraftServer.java:1029)
+[17:08:56] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_14_R1.MinecraftServer.executeNext(MinecraftServer.java:1022)
+[17:08:56] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_14_R1.IAsyncTaskHandler.awaitTasks(IAsyncTaskHandler.java:119)
+[17:08:56] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_14_R1.MinecraftServer.sleepForTick(MinecraftServer.java:1006)
+[17:08:56] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:929)
+[17:08:56] [Paper Watchdog Thread/ERROR]: 		java.base@11.0.6/java.lang.Thread.run(Thread.java:834)
+[17:08:56] [Paper Watchdog Thread/ERROR]: ------------------------------
+[17:08:56] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[17:08:56] [Paper Watchdog Thread/ERROR]: ------------------------------
+[17:08:56] [Server-Worker-1/INFO]: Preparing spawn area: 100%
+[17:08:57] [Server-Worker-4/INFO]: Preparing spawn area: 100%
+[17:08:57] [Server-Worker-6/INFO]: Preparing spawn area: 100%
+[17:08:58] [Server-Worker-6/INFO]: Preparing spawn area: 100%
+[17:08:58] [Server thread/INFO]: Loaded 441 spawn chunks for world secret
+[17:08:58] [Server thread/WARN]: Dhretsam moved too quickly! -9.812264973458525,0.0,12.365252954098423
+[17:08:58] [Server thread/INFO]: Time elapsed: 11850 ms
+[17:08:58] [Server thread/INFO]: Twiggeh99: Complete!
+[17:08:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11885ms or 237 ticks behind
+[17:09:20] [Async Chat Thread - #6/INFO]: []<TechnicalPlayz> imagine getting stuck in this world
+[17:09:41] [Async Chat Thread - #6/INFO]: []<TechnicalPlayz> thats what i was gonna ask
+[17:09:55] [Server thread/INFO]: [1m[33mSinglePlayerSleep 1.13_2.13.38[0m perm essentials.sleepingignored=true[0m
+[17:09:55] [Server thread/INFO]: [1m[33mSinglePlayerSleep 1.13_2.13.38[0m Dhretsam is sleeping.[0m
+[17:10:06] [Async Chat Thread - #6/INFO]: []<TechnicalPlayz> yes
+[17:10:28] [Async Chat Thread - #6/INFO]: []<TechnicalPlayz> should it be in a similair style as my builds but bigger and better?
+[17:10:32] [Server thread/INFO]: TechnicalPlayz issued server command: //wand
+[17:10:33] [Server thread/INFO]: Twiggeh99 issued server command: /thru
+[17:10:54] [Async Chat Thread - #6/INFO]: []<TechnicalPlayz> i'll make a sort of colloseum
+[17:11:14] [Async Chat Thread - #6/INFO]: []<TechnicalPlayz> yeah but it has to be open
+[17:11:21] [Async Chat Thread - #6/INFO]: []<TechnicalPlayz> so when you spawn you can easily walk out
+[17:11:29] [Async Chat Thread - #6/INFO]: []<TechnicalPlayz> oh
+[17:11:40] [Async Chat Thread - #6/INFO]: []<TechnicalPlayz> hmm
+[17:11:53] [Async Chat Thread - #6/INFO]: []<TechnicalPlayz> i think a medieval circular shape would look cool\
+[17:12:10] [Async Chat Thread - #6/INFO]: []<TechnicalPlayz> hehe thats my idea
+[17:12:22] [Server thread/INFO]: TechnicalPlayz issued server command: //hcyl <block> <radius> 1
+[17:12:39] [Server thread/INFO]: TechnicalPlayz issued server command: //hcyl cobblestone 30 1
+[17:12:44] [Server thread/INFO]: TechnicalPlayz issued server command: //hcyl cobblestone 30 10
+[17:12:49] [Server thread/INFO]: TechnicalPlayz issued server command: //undo
+[17:12:50] [Server thread/INFO]: TechnicalPlayz issued server command: //undo
+[17:12:55] [Server thread/INFO]: TechnicalPlayz issued server command: //hcyl cobblestone 60 10
+[17:13:01] [Server thread/INFO]: TechnicalPlayz issued server command: //undo
+[17:13:04] [Server thread/INFO]: TechnicalPlayz issued server command: //hcyl cobblestone 60 1
+[17:13:08] [Server thread/INFO]: TechnicalPlayz issued server command: //undo
+[17:13:30] [Server thread/INFO]: TechnicalPlayz issued server command: //hcyl minecraft:spruce_planks 60 1
+[17:13:34] [Server thread/INFO]: TechnicalPlayz issued server command: //hcyl minecraft:spruce_planks 60 1
+[17:13:37] [Server thread/INFO]: TechnicalPlayz issued server command: //undo
+[17:13:40] [Server thread/INFO]: TechnicalPlayz issued server command: //hcyl minecraft:spruce_planks 60 1
+[17:13:49] [Server thread/INFO]: TechnicalPlayz issued server command: //undo
+[17:13:50] [Server thread/INFO]: TechnicalPlayz issued server command: //undo
+[17:13:54] [Server thread/INFO]: TechnicalPlayz issued server command: //hcyl minecraft:spruce_planks 60 1
+[17:13:58] [Server thread/INFO]: TechnicalPlayz issued server command: //undo
+[17:14:03] [Server thread/INFO]: TechnicalPlayz issued server command: //hcyl minecraft:spruce_planks 60 1
+[17:14:09] [Server thread/INFO]: TechnicalPlayz issued server command: //hcyl minecraft:spruce_planks 60 1
+[17:14:22] [Server thread/INFO]: TechnicalPlayz issued server command: //hcyl cobblestone 61 1
+[17:14:26] [Server thread/INFO]: TechnicalPlayz issued server command: //hcyl cobblestone 61 1
+[17:14:38] [Async Chat Thread - #7/INFO]: []<TechnicalPlayz> yes im checking
+[17:15:00] [Async Chat Thread - #7/INFO]: []<TechnicalPlayz> ohh with those pillars and such
+[17:15:08] [Async Chat Thread - #7/INFO]: []<TechnicalPlayz> yes lets do it
+[17:15:11] [Server thread/INFO]: TechnicalPlayz issued server command: //undo
+[17:15:12] [Server thread/INFO]: TechnicalPlayz issued server command: //undo
+[17:15:14] [Server thread/INFO]: TechnicalPlayz issued server command: //undo
+[17:15:15] [Server thread/INFO]: TechnicalPlayz issued server command: //undo
+[17:15:23] [Async Chat Thread - #7/INFO]: []<TechnicalPlayz> oh
+[17:15:33] [Async Chat Thread - #7/INFO]: []<TechnicalPlayz> what blocktype
+[17:15:43] [Async Chat Thread - #7/INFO]: []<TechnicalPlayz> concrete? or sandstone?
+[17:15:50] [Async Chat Thread - #7/INFO]: []<TechnicalPlayz> or stripped logs
+[17:15:56] [Async Chat Thread - #7/INFO]: []<TechnicalPlayz> i guess stripped logs will work
+[17:15:57] [Async Chat Thread - #7/INFO]: []<TechnicalPlayz> no
+[17:16:02] [Async Chat Thread - #7/INFO]: []<TechnicalPlayz> we can do it without
+[17:16:38] [Async Chat Thread - #7/INFO]: []<TechnicalPlayz> believe in yourself
+[17:17:00] [Async Chat Thread - #7/INFO]: []<TechnicalPlayz> xD
+[17:18:24] [Async Chat Thread - #8/INFO]: []<TechnicalPlayz> how about a pillar like this?
+[17:18:54] [Server thread/INFO]: Ricky107 drowned
+[17:19:25] [Async Chat Thread - #9/INFO]: []<TechnicalPlayz> twig?
+[17:19:37] [Async Chat Thread - #9/INFO]: []<TechnicalPlayz> wouldn't this work?
+[17:19:50] [Server thread/INFO]: TechnicalPlayz issued server command: /time set day
+[17:20:01] [Async Chat Thread - #9/INFO]: []<TechnicalPlayz> thats sad
+[17:20:07] [Async Chat Thread - #9/INFO]: []<Ricky107> come look in my house
+[17:20:17] [Async Chat Thread - #9/INFO]: []<TechnicalPlayz> birch good
+[17:20:24] [Async Chat Thread - #9/INFO]: []<Ricky107> tp or something xD
+[17:20:43] [Async Chat Thread - #9/INFO]: []<TechnicalPlayz> but then only to be on the spawn you need a resourcepack?
+[17:20:46] [Server thread/INFO]: [1m[33mSinglePlayerSleep 1.13_2.13.38[0m perm essentials.sleepingignored=true[0m
+[17:20:46] [Server thread/INFO]: [1m[33mSinglePlayerSleep 1.13_2.13.38[0m Dhretsam is sleeping.[0m
+[17:21:02] [Async Chat Thread - #9/INFO]: []<TechnicalPlayz> but then it would change everything
+[17:21:24] [Async Chat Thread - #9/INFO]: []<Ricky107> i have better vanilla its really nice
+[17:21:24] [Async Chat Thread - #9/INFO]: []<TechnicalPlayz> but i like my own texturepack
+[17:22:09] [Async Chat Thread - #9/INFO]: []<Ricky107> why is there a bedrock cube
+[17:22:29] [Async Chat Thread - #9/INFO]: []<Ricky107> i see how it is
+[17:25:40] [Async Chat Thread - #10/INFO]: []<Ricky107> vanilla tweaks is quite nice
+[17:26:01] [Async Chat Thread - #10/INFO]: []<Ricky107> and better vanilla is quie nice too
+[17:26:29] [Server thread/INFO]: TechnicalPlayz issued server command: //wand
+[17:26:48] [Server thread/INFO]: TechnicalPlayz issued server command: //set grass_block
+[17:27:30] [Async Chat Thread - #11/INFO]: []<TechnicalPlayz> but if you made it already couldn't we import it?
+[17:27:38] [Async Chat Thread - #11/INFO]: []<TechnicalPlayz> oof
+[17:27:43] [Async Chat Thread - #11/INFO]: []<TechnicalPlayz> how long did it take?
+[17:28:39] [Async Chat Thread - #11/INFO]: []<TechnicalPlayz> which part of it are you making?
+[17:29:18] [Server thread/INFO]: TechnicalPlayz lost connection: Disconnected
+[17:29:18] [Server thread/INFO]: TechnicalPlayz left the game
+[17:30:55] [Async Chat Thread - #12/INFO]: []<Ricky107> brb i wanna get shaders
+[17:31:00] [Server thread/INFO]: Ricky107 lost connection: Disconnected
+[17:31:00] [Server thread/INFO]: Ricky107 left the game
+[17:31:06] [User Authenticator #6/INFO]: UUID of player Ricky107 is a122b62e-4a26-4c9f-957f-19b1d497032b
+[17:31:06] [Server thread/INFO]: Ricky107[/145.87.253.6:58612] logged in with entity id 13333 at ([world]-225.2602105030304, 64.0, 528.4559550850188)
+[17:31:08] [Async Chat Thread - #12/INFO]: []<Ricky107> maybe
+[17:31:17] [Async Chat Thread - #12/INFO]: []<Ricky107> nah ive done it before itll be fineeeeee
+[17:31:19] [Server thread/INFO]: Ricky107 lost connection: Disconnected
+[17:31:19] [Server thread/INFO]: Ricky107 left the game
+[17:31:37] [Server thread/INFO]: [1m[33mSinglePlayerSleep 1.13_2.13.38[0m perm essentials.sleepingignored=true[0m
+[17:31:37] [Server thread/INFO]: [1m[33mSinglePlayerSleep 1.13_2.13.38[0m Dhretsam is sleeping.[0m
+[17:31:40] [Server thread/INFO]: [1m[33mSinglePlayerSleep 1.13_2.13.38[0m perm essentials.sleepingignored=true[0m
+[17:31:48] [Server thread/INFO]: Twiggeh99 issued server command: /time set day
+[17:32:12] [Server thread/INFO]: Twiggeh99 issued server command: /mvgamerule dayLightCycle true
+[17:32:17] [Server thread/INFO]: Twiggeh99 issued server command: /mvgamerule dayLightCycle fasle
+[17:32:20] [Server thread/INFO]: Twiggeh99 issued server command: /mvgamerule dayLightCycle false
+[17:32:40] [Server thread/INFO]: Twiggeh99 issued server command: /mvgamerule doDaylightCycle false
+[17:32:53] [Server thread/INFO]: Twiggeh99 issued server command: /mvgamerule doWeatherCycle false
+[17:33:02] [Server thread/INFO]: Twiggeh99 issued server command: /mvwho
+[17:33:09] [Server thread/INFO]: Twiggeh99 issued server command: /weather clera
+[17:37:02] [User Authenticator #7/INFO]: UUID of player Ricky107 is a122b62e-4a26-4c9f-957f-19b1d497032b
+[17:37:02] [Server thread/INFO]: Ricky107[/145.87.253.6:59248] logged in with entity id 14014 at ([world]-225.2602105030304, 64.0, 528.4559550850188)
+[17:38:49] [Server thread/WARN]: Dhretsam moved too quickly! 2.5581759540684175,0.9031272476744903,11.584283873850836
+[17:39:04] [Async Chat Thread - #13/INFO]: [world]<Ricky107> ah yes went from 120 fps t 40
+[17:40:11] [Async Chat Thread - #14/INFO]: [world]<Ricky107> maybe i should not have gotten extreme
+[17:43:14] [Server thread/INFO]: [1m[33mSinglePlayerSleep 1.13_2.13.38[0m perm essentials.sleepingignored=true[0m
+[17:43:14] [Server thread/INFO]: [1m[33mSinglePlayerSleep 1.13_2.13.38[0m Dhretsam is sleeping.[0m
+[17:45:53] [Async Chat Thread - #15/INFO]: [world]<Ricky107> shouldnt u get more fps with optifine
+[17:45:57] [Async Chat Thread - #15/INFO]: [secret]<Twiggeh99> yes
+[17:46:05] [Server thread/INFO]: Twiggeh99 issued server command: /say yes
+[17:46:05] [Server thread/INFO]: [Twiggeh99] yes
+[17:46:16] [Async Chat Thread - #15/INFO]: [world]<Ricky107> weird that im getting like 40 less xD
+[17:46:24] [Async Chat Thread - #15/INFO]: [world]<Ricky107> shaders off
+[17:46:39] [Async Chat Thread - #15/INFO]: [world]<Ricky107> well its still above 60
+[17:46:51] [Async Chat Thread - #15/INFO]: [world]<Ricky107> went from like 140 to 100 so
+[17:48:54] [Server thread/INFO]: Twiggeh99 issued server command: /up 10
+[17:49:00] [Server thread/INFO]: Twiggeh99 issued server command: //copy
+[17:49:27] [Server thread/INFO]: Twiggeh99 issued server command: /up 10
+[17:49:30] [Server thread/INFO]: Twiggeh99 issued server command: //copy
+[17:49:42] [Server thread/INFO]: Twiggeh99 issued server command: /up 10
+[17:49:58] [Server thread/INFO]: Twiggeh99 issued server command: /north
+[17:50:30] [Server thread/INFO]: Twiggeh99 issued server command: //paste
+[17:50:41] [Async Chat Thread - #16/INFO]: [world]<Ricky107> brb
+[17:50:42] [Server thread/INFO]: Twiggeh99 issued server command: //undo
+[17:50:42] [Server thread/INFO]: Ricky107 lost connection: Disconnected
+[17:50:42] [Server thread/INFO]: Ricky107 left the game
+[17:50:48] [Server thread/INFO]: Twiggeh99 issued server command: //paste
+[17:51:14] [Server thread/INFO]: Twiggeh99 issued server command: //copy
+[17:51:24] [Server thread/INFO]: Twiggeh99 issued server command: //paste
+[17:51:35] [Server thread/INFO]: Twiggeh99 issued server command: //paste
+[17:51:43] [Server thread/INFO]: Twiggeh99 issued server command: //paste
+[17:52:03] [Server thread/INFO]: Twiggeh99 issued server command: //paste
+[17:52:14] [Server thread/INFO]: Twiggeh99 issued server command: //paste
+[17:52:26] [Server thread/INFO]: Twiggeh99 issued server command: /tp Dhretsam Twiggeh99
+[17:52:49] [Server thread/INFO]: Twiggeh99 issued server command: /difficulty peaceful
+[17:52:49] [Server thread/INFO]: [Twiggeh99: The difficulty has been set to Peaceful]
+[17:53:07] [Server thread/INFO]: Dhretsam issued server command: /gamemode creative
+[17:53:45] [Server thread/INFO]: Twiggeh99 issued server command: //copy
+[17:54:01] [Server thread/INFO]: Twiggeh99 issued server command: //paste
+[17:54:12] [Server thread/INFO]: Twiggeh99 issued server command: //fill minecraft:air
+[17:54:24] [Server thread/INFO]: Twiggeh99 issued server command: //set minecraft:air
+[17:54:28] [Server thread/INFO]: Twiggeh99 issued server command: //undo
+[17:54:43] [Server thread/INFO]: Twiggeh99 issued server command: //set minecraft:air
+[17:57:35] [Server thread/INFO]: Twiggeh99 issued server command: //copy
+[17:57:46] [Server thread/INFO]: Twiggeh99 issued server command: //paste
+[17:57:55] [Server thread/INFO]: Twiggeh99 issued server command: //paste
+[17:58:03] [Server thread/INFO]: Twiggeh99 issued server command: //paste
+[17:58:06] [Server thread/INFO]: Twiggeh99 issued server command: //undo
+[17:58:07] [Server thread/INFO]: Twiggeh99 issued server command: //paste
+[17:58:10] [Server thread/INFO]: Twiggeh99 issued server command: //paste
+[17:58:16] [Server thread/INFO]: Twiggeh99 issued server command: //paste
+[17:58:19] [Server thread/INFO]: Twiggeh99 issued server command: //paste
+[17:59:42] [Server thread/INFO]: Dhretsam lost connection: Disconnected
+[17:59:42] [Server thread/INFO]: Dhretsam left the game
+[18:07:58] [User Authenticator #8/INFO]: UUID of player Dhretsam is bbbacd2d-cc8d-4445-94d1-8ffe152fcd22
+[18:07:59] [Server thread/INFO]: Dhretsam[/87.156.41.175:51865] logged in with entity id 15413 at ([secret]-46.41402022222941, 14.762323673727165, 109.12847099031369)
+[18:08:43] [User Authenticator #8/INFO]: UUID of player Yohello_21 is aa5e6f27-8e6c-4ba8-ae35-ecd5962be94c
+[18:08:43] [Server thread/INFO]: Yohello_21[/99.247.54.130:29120] logged in with entity id 15414 at ([world]-172.48342523233245, 64.0, 594.4530578274881)
+[18:08:43] [pool-12-thread-1/INFO]: [Essentials] Creating empty config: /home/twiggeh/Downloads/Sync Server/CurtisCultMinecraftServer/plugins/Essentials/userdata/aa5e6f27-8e6c-4ba8-ae35-ecd5962be94c.yml
+[18:09:58] [Server thread/INFO]: Dhretsam issued server command: /tp Dhretsam spawn
+[18:10:49] [Server thread/INFO]: Dhretsam issued server command: /tpa Dhretsam spawn
+[18:11:59] [Server thread/INFO]: Dhretsam issued server command: /gamemode survival
+[18:14:21] [Server thread/INFO]: [1m[33mSinglePlayerSleep 1.13_2.13.38[0m perm essentials.sleepingignored=false[0m
+[18:14:21] [Server thread/INFO]: [1m[33mSinglePlayerSleep 1.13_2.13.38[0m Yohello_21 is sleeping.[0m
+[18:14:21] [Server thread/INFO]: [1m[33mSinglePlayerSleep 1.13_2.13.38[0m perm essentials.sleepingignored=false[0m
+[18:14:21] [Server thread/INFO]: [1m[33mSinglePlayerSleep 1.13_2.13.38[0m Yohello_21 is sleeping.[0m
+[18:21:07] [Server thread/INFO]: Twiggeh99 issued server command: /plugins
+[18:21:59] [User Authenticator #9/INFO]: UUID of player Equilibris is 10f57b62-9a49-4d6b-b85a-12f383b3ba55
+[18:21:59] [Server thread/INFO]: Equilibris[/92.220.188.168:55243] logged in with entity id 16340 at ([world]-236.28039255589186, 63.9375, 536.3052313624114)
+[18:21:59] [pool-12-thread-1/INFO]: [Essentials] Creating empty config: /home/twiggeh/Downloads/Sync Server/CurtisCultMinecraftServer/plugins/Essentials/userdata/10f57b62-9a49-4d6b-b85a-12f383b3ba55.yml
+[18:23:37] [Async Chat Thread - #17/INFO]: [world]<Yohello_21> dark oak is behid tech
+[18:25:38] [Server thread/INFO]: [1m[33mSinglePlayerSleep 1.13_2.13.38[0m perm essentials.sleepingignored=false[0m
+[18:25:38] [Server thread/INFO]: [1m[33mSinglePlayerSleep 1.13_2.13.38[0m Yohello_21 is sleeping.[0m
+[18:25:43] [Server thread/INFO]: [1m[33mSinglePlayerSleep 1.13_2.13.38[0m perm essentials.sleepingignored=false[0m
+[18:25:43] [Server thread/INFO]: [1m[33mSinglePlayerSleep 1.13_2.13.38[0m Equilibris is sleeping.[0m
+[18:25:44] [Server thread/INFO]: [1m[33mSinglePlayerSleep 1.13_2.13.38[0m perm essentials.sleepingignored=false[0m
+[18:25:44] [Server thread/INFO]: [1m[33mSinglePlayerSleep 1.13_2.13.38[0m Equilibris is sleeping.[0m
+[18:25:44] [Server thread/INFO]: [1m[33mSinglePlayerSleep 1.13_2.13.38[0m perm essentials.sleepingignored=false[0m
+[18:25:44] [Server thread/INFO]: [1m[33mSinglePlayerSleep 1.13_2.13.38[0m Equilibris is sleeping.[0m
+[18:26:35] [Server thread/INFO]: Twiggeh99 issued server command: /thru
+[18:26:39] [Server thread/INFO]: Twiggeh99 issued server command: /thru
+[18:27:10] [Server thread/INFO]: Twiggeh99 issued server command: /tp Equilibris Twiggeh99
+[18:27:15] [Server thread/INFO]: Equilibris lost connection: Disconnected
+[18:27:15] [Server thread/INFO]: Equilibris left the game
+[18:34:57] [Server thread/INFO]: Twiggeh99 issued server command: /f
+[18:35:03] [Server thread/INFO]: Twiggeh99 issued server command: /j
+[18:36:24] [Server thread/INFO]: Twiggeh99 issued server command: /tp Dhretsam Twiggeh99
+[18:37:18] [Server thread/INFO]: [1m[33mSinglePlayerSleep 1.13_2.13.38[0m perm essentials.sleepingignored=false[0m
+[18:37:18] [Server thread/INFO]: [1m[33mSinglePlayerSleep 1.13_2.13.38[0m Yohello_21 is sleeping.[0m
+[18:37:24] [Server thread/INFO]: [1m[33mSinglePlayerSleep 1.13_2.13.38[0m perm essentials.sleepingignored=false[0m
+[18:37:24] [Server thread/INFO]: [1m[33mSinglePlayerSleep 1.13_2.13.38[0m Yohello_21 is sleeping.[0m
+[18:37:36] [Async Chat Thread - #18/INFO]: [world]<Yohello_21> yes
+[18:37:59] [Async Chat Thread - #18/INFO]: [world]<Yohello_21> ok
+[18:38:26] [Async Chat Thread - #18/INFO]: [world]<Yohello_21> water would make more sense for shaders
+[18:38:34] [User Authenticator #10/INFO]: UUID of player Ricky107 is a122b62e-4a26-4c9f-957f-19b1d497032b
+[18:38:34] [Server thread/INFO]: Ricky107[/145.87.253.6:62186] logged in with entity id 17756 at ([world]-198.2190646101119, 64.90290000319482, 507.3738185795879)
+[18:39:29] [Async Chat Thread - #19/INFO]: [world]<Ricky107> why is your house gone xD
+[18:39:36] [Async Chat Thread - #19/INFO]: [world]<Yohello_21> well
+[18:39:46] [Async Chat Thread - #19/INFO]: [world]<Ricky107> doubt
+[18:39:47] [Async Chat Thread - #19/INFO]: [world]<Ricky107> jk
+[18:40:22] [Server thread/INFO]: Twiggeh99 issued server command: /thru
+[18:40:25] [Server thread/INFO]: Twiggeh99 issued server command: /thru
+[18:40:32] [Server thread/INFO]: Ricky107 lost connection: Disconnected
+[18:40:32] [Server thread/INFO]: Ricky107 left the game
+[18:41:19] [Async Chat Thread - #20/INFO]: [world]<Yohello_21> what happened to vein minner
+[18:41:52] [Async Chat Thread - #20/INFO]: [world]<Yohello_21> waht about nether portal
+[18:42:18] [User Authenticator #11/INFO]: UUID of player Ricky107 is a122b62e-4a26-4c9f-957f-19b1d497032b
+[18:42:19] [Server thread/INFO]: Ricky107[/145.87.253.6:62416] logged in with entity id 18188 at ([world]-214.0086379544795, 63.0, 548.5477768506016)
+[18:43:16] [Async Chat Thread - #21/INFO]: [world]<Ricky107> we should get a enchanting table with like al lthe books arounf it
+[18:43:33] [Async Chat Thread - #21/INFO]: [world]<Yohello_21> look in the warehouse for leather
+[18:43:34] [Async Chat Thread - #21/INFO]: [world]<Ricky107> oki
+[18:45:57] [Async Chat Thread - #22/INFO]: [world]<Ricky107> where is the ware house? or your house Twiggeh
+[18:46:10] [Async Chat Thread - #22/INFO]: [world]<Yohello_21> the dock place
+[18:48:14] [Server thread/INFO]: Twiggeh99 issued server command: //cut
+[18:48:19] [Server thread/INFO]: Twiggeh99 issued server command: //paste
+[18:48:29] [Server thread/INFO]: Twiggeh99 issued server command: //undo
+[18:48:31] [Server thread/INFO]: Twiggeh99 issued server command: //undo
+[18:48:49] [Server thread/INFO]: Twiggeh99 issued server command: //cut
+[18:48:52] [Server thread/INFO]: Twiggeh99 issued server command: //paste
+[18:48:54] [Server thread/INFO]: [1m[33mSinglePlayerSleep 1.13_2.13.38[0m perm essentials.sleepingignored=false[0m
+[18:48:54] [Server thread/INFO]: [1m[33mSinglePlayerSleep 1.13_2.13.38[0m Yohello_21 is sleeping.[0m
+[18:50:08] [Server thread/INFO]: Yohello_21 has made the advancement [We Need to Go Deeper]
+[18:51:33] [Async Chat Thread - #23/INFO]: [world]<Yohello_21> this is hard mode
+[18:51:37] [Async Chat Thread - #23/INFO]: [secret]<Twiggeh99> yes
+[18:51:40] [Server thread/INFO]: Yohello_21 issued server command: /ok
+[18:51:41] [Server thread/INFO]: Twiggeh99 issued server command: /say yes
+[18:51:41] [Server thread/INFO]: [Twiggeh99] yes
+[18:51:49] [Async Chat Thread - #23/INFO]: [world]<Ricky107> why did u type it 2 times
+[18:52:00] [Async Chat Thread - #23/INFO]: [world]<Yohello_21> oh didn't relise
+[18:52:15] [Async Chat Thread - #23/INFO]: [secret]<Twiggeh99> I wasn't sure if people can see my messages from a different world
+[18:52:19] [Async Chat Thread - #23/INFO]: [world]<Ricky107> ooh
+[18:52:34] [Async Chat Thread - #23/INFO]: [world]<Yohello_21> mob spawner?
+[18:54:06] [Server thread/INFO]: [1m[33mSinglePlayerSleep 1.13_2.13.38[0m perm essentials.sleepingignored=false[0m
+[18:55:21] [Async Chat Thread - #24/INFO]: [world]<Yohello_21> yes or no
+[18:55:27] [Async Chat Thread - #24/INFO]: [secret]<Twiggeh99> ?
+[18:55:43] [Async Chat Thread - #24/INFO]: [world]<Yohello_21> do you guys want a mob spawner?
+[18:55:47] [Async Chat Thread - #24/INFO]: [secret]<Twiggeh99> you can silk touch mob spawners
+[18:56:01] [Async Chat Thread - #24/INFO]: [world]<Yohello_21> wait we found one?
+[18:56:09] [Async Chat Thread - #24/INFO]: [world]<Yohello_21> where?
+[18:56:13] [Async Chat Thread - #24/INFO]: [world]<Ricky107> ive found 2
+[18:56:18] [Async Chat Thread - #24/INFO]: [world]<Yohello_21> where
+[18:56:35] [Async Chat Thread - #24/INFO]: [world]<Ricky107> dunno i i saved the cords somewhere
+[18:56:36] [Async Chat Thread - #24/INFO]: [world]<Yohello_21> hmm
+[18:56:48] [Async Chat Thread - #24/INFO]: [world]<Yohello_21> yes
+[18:57:08] [Async Chat Thread - #24/INFO]: [world]<Yohello_21> haven't used thar
+[18:57:17] [Async Chat Thread - #24/INFO]: [world]<Ricky107> Twiggeh you know u cn still go in the illigal mine
+[18:57:26] [Async Chat Thread - #24/INFO]: [secret]<Twiggeh99> yes
+[18:58:22] [Async Chat Thread - #24/INFO]: [secret]<Twiggeh99> I wasn't really making it unusable ^^
+[18:58:46] [Async Chat Thread - #24/INFO]: [world]<Ricky107> ah otherwise you could have just covered it with grass and you wouldnt find it anymore
+[18:58:53] [Async Chat Thread - #24/INFO]: [secret]<Twiggeh99> haha
+[18:59:29] [Server thread/INFO]: Ricky107 has made the advancement [What a Deal!]
+[19:00:42] [Server thread/INFO]: [1m[33mSinglePlayerSleep 1.13_2.13.38[0m perm essentials.sleepingignored=true[0m
+[19:00:42] [Server thread/INFO]: [1m[33mSinglePlayerSleep 1.13_2.13.38[0m Dhretsam is sleeping.[0m
+[19:00:50] [Async Chat Thread - #25/INFO]: [world]<Yohello_21> should i
+[19:06:41] [Async Chat Thread - #26/INFO]: [secret]<Twiggeh99> guys stop
+[19:06:45] [Async Chat Thread - #26/INFO]: [world]<Ricky107> ?
+[19:06:48] [Server thread/INFO]: Yohello_21 has made the advancement [Take Aim]
+[19:06:52] [Async Chat Thread - #26/INFO]: [world]<Yohello_21> sry
+[19:07:18] [Async Chat Thread - #26/INFO]: [secret]<Twiggeh99> python wants to run this on heroku
+[19:07:19] [Async Chat Thread - #26/INFO]: [world]<Yohello_21> where is thejungle biome
+[19:07:24] [Async Chat Thread - #26/INFO]: [secret]<Twiggeh99> so you need to stay
+[19:07:27] [Async Chat Thread - #26/INFO]: [secret]<Twiggeh99> in place
+[19:07:30] [Async Chat Thread - #26/INFO]: [secret]<Twiggeh99> everyone ok
+[19:07:32] [Async Chat Thread - #26/INFO]: [secret]<Twiggeh99> ?
+[19:07:49] [Async Chat Thread - #26/INFO]: [secret]<Twiggeh99> shuttng down in 5
+[19:07:52] [Async Chat Thread - #26/INFO]: [secret]<Twiggeh99> shuttng down in 4
+[19:07:54] [Async Chat Thread - #26/INFO]: [secret]<Twiggeh99> shuttng down in 3
+[19:07:56] [Async Chat Thread - #26/INFO]: [secret]<Twiggeh99> shuttng down in 2
+[19:08:00] [Async Chat Thread - #26/INFO]: [world]<Yohello_21> sr
+[19:08:03] [Server thread/INFO]: Twiggeh99 issued server command: /save-all
+[19:08:03] [Server thread/INFO]: [Twiggeh99: Saved the game]
+[19:08:05] [Server thread/INFO]: Twiggeh99 issued server command: /stop
+[19:08:05] [Server thread/INFO]: [Twiggeh99: Stopping the server]
+[19:08:05] [Server thread/INFO]: Stopping server
+[19:08:05] [Server thread/INFO]: [TempFly] Disabling TempFly v2.0.1
+[19:08:05] [Server thread/INFO]: [TheNewEconomy] Disabling TheNewEconomy v0.1.1.9
+[19:08:05] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown initiated...
+[19:08:05] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
+[19:08:05] [Server thread/INFO]: [TheNewEconomy] The New Economy has been disabled!
+[19:08:05] [Server thread/INFO]: [VeinMiner] Disabling VeinMiner v1.15.0
+[19:08:05] [Server thread/INFO]: [VeinMiner] Clearing localized data
+[19:08:05] [Server thread/INFO]: [Multiverse-SignPortals] Disabling Multiverse-SignPortals v4.1.0-b748
+[19:08:05] [Server thread/INFO]: [Multiverse-SignPortals] - Disabled
+[19:08:05] [Server thread/INFO]: [Essentials] Disabling Essentials v2.17.2.45
+[19:08:05] [Server thread/INFO]: [Vault] [Vault][Economy] Essentials Economy unhooked.
+[19:08:05] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [[0;32;22mMyPet[m] [mDisabling MyPet v3.9[m
+[19:08:05] [Server thread/INFO]: [PetMaster] Disabling PetMaster v1.10.2
+[19:08:05] [Server thread/INFO]: [PetMaster] PetMaster has been disabled.
+[19:08:05] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.1.0-b775
+[19:08:05] [Server thread/INFO]: [Vault] Disabling Vault v1.7.2-b107
+[19:08:05] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[19:08:05] [Server thread/INFO]: [SinglePlayerSleep] Disabling SinglePlayerSleep v1.13_2.13.38
+[19:08:05] [Server thread/INFO]: [1m[33m**************************************[0m
+[19:08:05] [Server thread/INFO]: [1m[32mSinglePlayerSleep v1.13_2.13.38[0m is [1mDISABLED[0m
+[19:08:05] [Server thread/INFO]: [1m[33m**************************************[0m
+[19:08:05] [Server thread/INFO]: [InvSort] Disabling InvSort v1.1.0
+[19:08:05] [Server thread/INFO]: [Timber] Disabling Timber v1.0.7
+[19:08:05] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.0.1;61bc012
+[19:08:05] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[19:08:05] [Server thread/INFO]: [dynmap] Disabling dynmap v2.5-Dev201706100405
+[19:08:05] [Server thread/ERROR]: Error occurred while disabling dynmap v2.5-Dev201706100405 (Is it up to date?)
+java.lang.NullPointerException: null
+	at org.dynmap.bukkit.DynmapPlugin.onDisable(DynmapPlugin.java:902) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:265) ~[patched_1.14.4.jar:git-Paper-243]
+	at org.bukkit.plugin.java.JavaPluginLoader.disablePlugin(JavaPluginLoader.java:373) ~[patched_1.14.4.jar:git-Paper-243]
+	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:453) ~[patched_1.14.4.jar:git-Paper-243]
+	at org.bukkit.plugin.SimplePluginManager.disablePlugins(SimplePluginManager.java:439) ~[patched_1.14.4.jar:git-Paper-243]
+	at org.bukkit.plugin.SimplePluginManager.disablePlugins(SimplePluginManager.java:432) ~[patched_1.14.4.jar:git-Paper-243]
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.disablePlugins(CraftServer.java:401) ~[patched_1.14.4.jar:git-Paper-243]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.stop(MinecraftServer.java:733) ~[patched_1.14.4.jar:git-Paper-243]
+	at net.minecraft.server.v1_14_R1.DedicatedServer.stop(DedicatedServer.java:739) ~[patched_1.14.4.jar:git-Paper-243]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:966) ~[patched_1.14.4.jar:git-Paper-243]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[19:08:05] [Server thread/INFO]: Saving players
+[19:08:06] [Server thread/INFO]: Yohello_21 lost connection: Server closed
+[19:08:06] [Server thread/INFO]: Yohello_21 left the game
+[19:08:06] [Server thread/INFO]: Dhretsam lost connection: Server closed
+[19:08:06] [Server thread/INFO]: Dhretsam left the game
+[19:08:06] [Server thread/INFO]: Twiggeh99 lost connection: Server closed
+[19:08:06] [Server thread/INFO]: Twiggeh99 left the game
+[19:08:06] [Server thread/INFO]: Ricky107 lost connection: Server closed
+[19:08:06] [Server thread/INFO]: Ricky107 left the game
+[19:08:06] [Server thread/INFO]: Saving worlds
+[19:08:06] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
+[19:08:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[19:08:06] [Server thread/INFO]: Saving chunks for level 'world_nether'/minecraft:the_nether
+[19:08:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19:08:06] [Server thread/INFO]: Saving chunks for level 'world_the_end'/minecraft:the_end
+[19:08:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[19:08:06] [Server thread/INFO]: Saving chunks for level 'secret'/minecraft:secret
+[19:08:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (secret): All chunks are saved
+[19:08:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[19:08:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19:08:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[19:08:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (secret): All chunks are saved

@@ -1,0 +1,18 @@
+04-06-2020 16:08 [INFO] [MyPet] Error-Reporter ENABLED
+04-06-2020 16:08 [INFO] [MyPet] Enabling MyPet v3.9
+04-06-2020 16:08 [INFO] [MyPet] No Update available.
+04-06-2020 16:08 [INFO] [MyPet] Custom entity registry found: net.minecraft.server.v1_14_R1.RegistryBlocks
+04-06-2020 16:08 [INFO] [MyPet] Compat mode for v1_14_R1 loaded.
+04-06-2020 16:08 [INFO] [MyPet] Exp calculation mode: MyPet
+04-06-2020 16:08 [INFO] [MyPet] Current Exp-Cache is invalid, it will be recalculated.
+04-06-2020 16:08 [INFO] [MyPet] Loading WorldGroups...
+04-06-2020 16:08 [INFO] [MyPet]    added world to 'default' group.
+04-06-2020 16:08 [INFO] [MyPet]    added world_nether to 'default' group.
+04-06-2020 16:08 [INFO] [MyPet]    added world_the_end to 'default' group.
+04-06-2020 16:08 [INFO] [MyPet] Default skilltree files created.
+04-06-2020 16:08 [INFO] [MyPet] Connect to SQLite database...
+04-06-2020 16:08 [INFO] [MyPet] SQLite connection successful.
+04-06-2020 16:08 [INFO] [MyPet] Vault (1.7.2-b107) (Economy: TheNewEconomy) (Permissions: SuperPerms) hook activated.
+04-06-2020 16:08 [INFO] [MyPet] Version 3.9-b1525 ENABLED
+04-06-2020 17:08 [INFO] [MyPet] added secret to 'default' group.
+04-06-2020 19:08 [INFO] [MyPet] Disabling MyPet v3.9
