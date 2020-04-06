@@ -83,6 +83,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/leather_helmet": {
+    "criteria": {
+      "has_leather": "2020-04-06 15:56:43 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/campfire": {
     "criteria": {
       "has_stick": "2020-04-05 20:58:38 +0200"
@@ -305,6 +311,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/golden_carrot": {
+    "criteria": {
+      "has_gold_nugget": "2020-04-06 14:22:24 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/shield": {
     "criteria": {
       "has_iron_ingot": "2020-04-06 00:42:55 +0200"
@@ -314,6 +326,12 @@
   "minecraft:recipes/building_blocks/cobblestone_slab": {
     "criteria": {
       "has_cobblestone": "2020-04-05 22:18:18 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod": {
+    "criteria": {
+      "has_cod": "2020-04-06 14:08:46 +0200"
     },
     "done": true
   },
@@ -401,9 +419,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/hay_block": {
+    "criteria": {
+      "has_at_least_9_wheat": "2020-04-06 15:37:02 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/leather_horse_armor": {
+    "criteria": {
+      "has_leather": "2020-04-06 15:56:43 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/glass": {
     "criteria": {
       "has_sand": "2020-04-05 20:59:53 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_leggings": {
+    "criteria": {
+      "has_leather": "2020-04-06 15:56:43 +0200"
     },
     "done": true
   },
@@ -472,6 +508,12 @@
       "has_bed": "2020-04-05 21:42:51 +0200"
     },
     "done": true
+  },
+  "minecraft:husbandry/bred_all_animals": {
+    "criteria": {
+      "minecraft:chicken": "2020-04-06 14:59:09 +0200"
+    },
+    "done": false
   },
   "minecraft:recipes/building_blocks/andesite_stairs_from_andesite_stonecutting": {
     "criteria": {
@@ -542,6 +584,12 @@
   "minecraft:recipes/transportation/minecart": {
     "criteria": {
       "has_iron_ingot": "2020-04-06 00:42:55 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/yellow_dye_from_sunflower": {
+    "criteria": {
+      "has_double_plant": "2020-04-06 15:39:19 +0200"
     },
     "done": true
   },
@@ -707,6 +755,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_salmon_from_campfire_cooking": {
+    "criteria": {
+      "has_salmon": "2020-04-06 14:08:31 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/gray_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2020-04-05 21:42:51 +0200"
@@ -716,6 +770,12 @@
   "minecraft:recipes/building_blocks/white_concrete_powder": {
     "criteria": {
       "has_sand": "2020-04-05 20:59:53 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/item_frame": {
+    "criteria": {
+      "has_leather": "2020-04-06 15:56:43 +0200"
     },
     "done": true
   },
@@ -759,9 +819,11 @@
     "criteria": {
       "minecraft:pillager": "2020-04-06 10:50:43 +0200",
       "minecraft:skeleton": "2020-04-06 00:27:59 +0200",
+      "minecraft:zombie_pigman": "2020-04-06 14:22:23 +0200",
       "minecraft:spider": "2020-04-06 03:53:11 +0200",
       "minecraft:creeper": "2020-04-06 02:18:26 +0200",
-      "minecraft:zombie": "2020-04-05 21:02:46 +0200"
+      "minecraft:zombie": "2020-04-05 21:02:46 +0200",
+      "minecraft:zombie_villager": "2020-04-06 15:14:21 +0200"
     },
     "done": false
   },
@@ -798,6 +860,12 @@
   "minecraft:recipes/building_blocks/granite_slab": {
     "criteria": {
       "has_granite": "2020-04-06 00:41:42 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef_from_smoking": {
+    "criteria": {
+      "has_beef": "2020-04-06 15:56:42 +0200"
     },
     "done": true
   },
@@ -909,6 +977,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_cod_from_campfire_cooking": {
+    "criteria": {
+      "has_cod": "2020-04-06 14:08:46 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/anvil": {
     "criteria": {
       "has_iron_block": "2020-04-06 03:11:19 +0200"
@@ -996,6 +1070,12 @@
   "minecraft:recipes/combat/golden_chestplate": {
     "criteria": {
       "has_gold_ingot": "2020-04-06 02:53:00 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon_from_smoking": {
+    "criteria": {
+      "has_salmon": "2020-04-06 14:08:31 +0200"
     },
     "done": true
   },
@@ -1203,6 +1283,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_salmon": {
+    "criteria": {
+      "has_salmon": "2020-04-06 14:08:31 +0200"
+    },
+    "done": true
+  },
   "minecraft:story/root": {
     "criteria": {
       "crafting_table": "2020-04-05 21:30:47 +0200"
@@ -1293,6 +1379,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/leather_chestplate": {
+    "criteria": {
+      "has_leather": "2020-04-06 15:56:43 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/compass": {
     "criteria": {
       "has_redstone": "2020-04-06 00:43:50 +0200"
@@ -1347,16 +1439,25 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_beef": {
+    "criteria": {
+      "has_beef": "2020-04-06 15:56:42 +0200"
+    },
+    "done": true
+  },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:cold_ocean": "2020-04-05 21:24:46 +0200",
       "minecraft:mountains": "2020-04-05 20:52:35 +0200",
       "minecraft:forest": "2020-04-05 21:28:58 +0200",
+      "minecraft:taiga": "2020-04-06 15:20:21 +0200",
       "minecraft:deep_cold_ocean": "2020-04-06 01:00:10 +0200",
+      "minecraft:taiga_hills": "2020-04-06 15:23:28 +0200",
       "minecraft:beach": "2020-04-05 20:50:16 +0200",
       "minecraft:dark_forest": "2020-04-06 00:30:00 +0200",
       "minecraft:river": "2020-04-05 20:51:13 +0200",
       "minecraft:wooded_mountains": "2020-04-05 20:57:57 +0200",
+      "minecraft:wooded_hills": "2020-04-06 15:17:58 +0200",
       "minecraft:stone_shore": "2020-04-05 20:51:41 +0200",
       "minecraft:plains": "2020-04-05 20:50:00 +0200"
     },
@@ -1422,6 +1523,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/leather_boots": {
+    "criteria": {
+      "has_leather": "2020-04-06 15:56:43 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/jungle_boat": {
     "criteria": {
       "in_water": "2020-04-05 20:50:52 +0200"
@@ -1443,6 +1550,12 @@
   "minecraft:recipes/misc/iron_ingot_from_iron_block": {
     "criteria": {
       "has_at_least_9_iron_ingot": "2020-04-06 00:42:55 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/black_dye": {
+    "criteria": {
+      "has_ink_sac": "2020-04-06 14:08:40 +0200"
     },
     "done": true
   },
@@ -1512,6 +1625,18 @@
     },
     "done": true
   },
+  "minecraft:husbandry/breed_an_animal": {
+    "criteria": {
+      "bred": "2020-04-06 14:59:09 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/mojang_banner_pattern": {
+    "criteria": {
+      "has_enchanted_golden_apple": "2020-04-06 15:45:25 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/piston": {
     "criteria": {
       "has_redstone": "2020-04-06 00:43:50 +0200"
@@ -1524,9 +1649,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_cod_from_smoking": {
+    "criteria": {
+      "has_cod": "2020-04-06 14:08:46 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/lantern": {
     "criteria": {
       "has_iron_ingot": "2020-04-06 00:42:55 +0200"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/complete_catalogue": {
+    "criteria": {
+      "textures/entity/cat/black.png": "2020-04-06 14:09:39 +0200"
+    },
+    "done": false
+  },
+  "minecraft:recipes/food/cooked_beef_from_campfire_cooking": {
+    "criteria": {
+      "has_beef": "2020-04-06 15:56:42 +0200"
     },
     "done": true
   },

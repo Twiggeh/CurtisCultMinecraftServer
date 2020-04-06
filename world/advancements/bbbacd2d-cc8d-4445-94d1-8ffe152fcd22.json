@@ -197,6 +197,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/bone_meal_from_bone_block": {
+    "criteria": {
+      "has_at_least_9_bonemeal": "2020-04-06 15:59:41 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/torch": {
     "criteria": {
       "has_stone_pickaxe": "2020-04-05 21:09:13 +0200"
@@ -218,6 +224,12 @@
   "minecraft:recipes/tools/shears": {
     "criteria": {
       "has_iron_ingot": "2020-04-05 21:33:08 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/white_dye": {
+    "criteria": {
+      "has_bone_meal": "2020-04-06 15:59:41 +0200"
     },
     "done": true
   },
@@ -441,6 +453,12 @@
   "minecraft:recipes/redstone/oak_fence_gate": {
     "criteria": {
       "has_planks": "2020-04-05 21:08:00 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tnt": {
+    "criteria": {
+      "has_gunpowder": "2020-04-06 15:15:53 +0200"
     },
     "done": true
   },
@@ -757,7 +775,8 @@
       "minecraft:spider": "2020-04-05 23:23:18 +0200",
       "minecraft:creeper": "2020-04-05 21:29:50 +0200",
       "minecraft:enderman": "2020-04-06 01:08:24 +0200",
-      "minecraft:zombie": "2020-04-05 21:18:34 +0200"
+      "minecraft:zombie": "2020-04-05 21:18:34 +0200",
+      "minecraft:zombie_villager": "2020-04-06 15:19:53 +0200"
     },
     "done": false
   },
@@ -1305,9 +1324,11 @@
     "criteria": {
       "minecraft:forest": "2020-04-05 21:30:30 +0200",
       "minecraft:mountains": "2020-04-05 21:05:38 +0200",
+      "minecraft:taiga": "2020-04-06 15:46:40 +0200",
       "minecraft:beach": "2020-04-05 21:02:16 +0200",
       "minecraft:river": "2020-04-05 21:03:57 +0200",
       "minecraft:wooded_mountains": "2020-04-05 21:07:00 +0200",
+      "minecraft:wooded_hills": "2020-04-06 15:08:01 +0200",
       "minecraft:stone_shore": "2020-04-05 21:04:57 +0200",
       "minecraft:plains": "2020-04-05 21:02:06 +0200"
     },
@@ -1538,6 +1559,12 @@
   "minecraft:recipes/decorations/light_gray_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2020-04-05 22:11:02 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bone_block": {
+    "criteria": {
+      "has_at_least_9_bonemeal": "2020-04-06 15:59:41 +0200"
     },
     "done": true
   },
