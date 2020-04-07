@@ -224,6 +224,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/end_stone_brick_slab_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2020-04-07 21:03:32 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/wooden_shovel": {
     "criteria": {
       "has_stick": "2020-04-05 20:58:38 +0200"
@@ -388,6 +394,8 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "cooked_beef": "2020-04-07 21:04:26 +0200",
+      "baked_potato": "2020-04-07 20:53:44 +0200",
       "cooked_cod": "2020-04-06 17:07:16 +0200",
       "bread": "2020-04-05 21:39:22 +0200",
       "suspicious_stew": "2020-04-06 16:58:31 +0200",
@@ -979,6 +987,7 @@
       "minecraft:spider": "2020-04-06 03:53:11 +0200",
       "minecraft:creeper": "2020-04-06 02:18:26 +0200",
       "minecraft:phantom": "2020-04-06 19:56:42 +0200",
+      "minecraft:enderman": "2020-04-07 20:24:37 +0200",
       "minecraft:zombie": "2020-04-05 21:02:46 +0200",
       "minecraft:drowned": "2020-04-06 20:57:37 +0200",
       "minecraft:zombie_villager": "2020-04-06 15:14:21 +0200"
@@ -1312,6 +1321,18 @@
   "minecraft:recipes/decorations/stone_brick_wall_from_stone_bricks_stonecutting": {
     "criteria": {
       "has_stone_bricks": "2020-04-06 21:18:12 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_bricks_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2020-04-07 21:03:32 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_stairs_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2020-04-07 21:03:32 +0200"
     },
     "done": true
   },
@@ -1857,6 +1878,18 @@
     },
     "done": true
   },
+  "minecraft:end/dragon_egg": {
+    "criteria": {
+      "dragon_egg": "2020-04-07 21:31:03 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_bricks": {
+    "criteria": {
+      "has_end_stone": "2020-04-07 21:03:32 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/heavy_weighted_pressure_plate": {
     "criteria": {
       "has_iron_ingot": "2020-04-06 00:42:55 +0200"
@@ -1926,6 +1959,12 @@
   "minecraft:recipes/decorations/brown_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2020-04-05 21:42:51 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_stone_brick_wall_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2020-04-07 21:03:32 +0200"
     },
     "done": true
   },

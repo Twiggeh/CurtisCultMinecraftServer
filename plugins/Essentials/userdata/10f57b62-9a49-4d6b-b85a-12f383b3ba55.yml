@@ -1,19 +1,19 @@
 lastAccountName: Equilibris
 timestamps:
-  login: 1586198795353
-  logout: 1586198837598
+  login: 1586289311977
+  logout: 1586289486952
 ipAddress: 92.220.188.168
 lastlocation:
-  world: secret
-  x: -94.8130908988145
-  y: 4.419999986886978
-  z: 59.982454323092895
-  yaw: -37.198204
-  pitch: 10.349962
+  world: world
+  x: -255.31275465050936
+  y: 64.0
+  z: 477.21307354849915
+  yaw: -273.2993
+  pitch: 0.7500495
 logoutlocation:
   world: world
-  x: -327.69999998807907
-  y: 13.0
-  z: 499.57582812487107
-  yaw: -177.17123
-  pitch: 52.19966
+  x: -196.80844570714873
+  y: 63.0
+  z: 614.3160339857983
+  yaw: 67.57318
+  pitch: 10.350329

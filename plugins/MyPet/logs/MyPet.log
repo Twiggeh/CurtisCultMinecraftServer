@@ -48,3 +48,68 @@
 04-06-2020 23:21 [INFO] [MyPet] Vault (1.7.2-b107) (Economy: TheNewEconomy) (Permissions: SuperPerms) hook activated.
 04-06-2020 23:21 [INFO] [MyPet] Version 3.9-b1525 ENABLED
 04-06-2020 23:23 [INFO] [MyPet] Disabling MyPet v3.9
+04-07-2020 10:52 [INFO] [MyPet] Error-Reporter ENABLED
+04-07-2020 10:53 [INFO] [MyPet] Enabling MyPet v3.9
+04-07-2020 10:53 [INFO] [MyPet] No Update available.
+04-07-2020 10:53 [INFO] [MyPet] Custom entity registry found: net.minecraft.server.v1_14_R1.RegistryBlocks
+04-07-2020 10:53 [INFO] [MyPet] Compat mode for v1_14_R1 loaded.
+04-07-2020 10:53 [INFO] [MyPet] Exp calculation mode: MyPet
+04-07-2020 10:53 [INFO] [MyPet] Loading WorldGroups...
+04-07-2020 10:53 [INFO] [MyPet]    added 'world' to 'default'
+04-07-2020 10:53 [INFO] [MyPet]    added 'world_nether' to 'default'
+04-07-2020 10:53 [INFO] [MyPet]    added 'world_the_end' to 'default'
+04-07-2020 10:53 [INFO] [MyPet]    added 'secret' to 'default'
+04-07-2020 10:53 [INFO] [MyPet] Connect to SQLite database...
+04-07-2020 10:53 [INFO] [MyPet] SQLite connection successful.
+04-07-2020 10:53 [INFO] [MyPet] Vault (1.7.2-b107) (Economy: TheNewEconomy) (Permissions: SuperPerms) hook activated.
+04-07-2020 10:53 [INFO] [MyPet] Version 3.9-b1525 ENABLED
+04-07-2020 14:03 [INFO] [MyPet] Disabling MyPet v3.9
+04-07-2020 19:53 [INFO] [MyPet] Error-Reporter ENABLED
+04-07-2020 19:53 [INFO] [MyPet] Enabling MyPet v3.9
+04-07-2020 19:53 [INFO] [MyPet] No Update available.
+04-07-2020 19:53 [INFO] [MyPet] Custom entity registry found: net.minecraft.server.v1_14_R1.RegistryBlocks
+04-07-2020 19:53 [INFO] [MyPet] Compat mode for v1_14_R1 loaded.
+04-07-2020 19:53 [INFO] [MyPet] Exp calculation mode: MyPet
+04-07-2020 19:53 [INFO] [MyPet] Loading WorldGroups...
+04-07-2020 19:53 [INFO] [MyPet]    added 'world' to 'default'
+04-07-2020 19:53 [INFO] [MyPet]    added 'world_nether' to 'default'
+04-07-2020 19:53 [INFO] [MyPet]    added 'world_the_end' to 'default'
+04-07-2020 19:53 [INFO] [MyPet]    added 'secret' to 'default'
+04-07-2020 19:53 [INFO] [MyPet] Connect to SQLite database...
+04-07-2020 19:53 [INFO] [MyPet] SQLite connection successful.
+04-07-2020 19:53 [INFO] [MyPet] Vault (1.7.2-b107) (Economy: TheNewEconomy) (Permissions: SuperPerms) hook activated.
+04-07-2020 19:53 [INFO] [MyPet] Version 3.9-b1525 ENABLED
+04-07-2020 20:04 [INFO] [MyPet] Disabling MyPet v3.9
+04-07-2020 20:04 [INFO] [MyPet] Error-Reporter ENABLED
+04-07-2020 20:04 [INFO] [MyPet] Enabling MyPet v3.9
+04-07-2020 20:04 [INFO] [MyPet] No Update available.
+04-07-2020 20:04 [INFO] [MyPet] Custom entity registry found: net.minecraft.server.v1_14_R1.RegistryBlocks
+04-07-2020 20:04 [INFO] [MyPet] Compat mode for v1_14_R1 loaded.
+04-07-2020 20:04 [INFO] [MyPet] Exp calculation mode: MyPet
+04-07-2020 20:04 [INFO] [MyPet] Loading WorldGroups...
+04-07-2020 20:04 [INFO] [MyPet]    added 'world' to 'default'
+04-07-2020 20:04 [INFO] [MyPet]    added 'world_nether' to 'default'
+04-07-2020 20:04 [INFO] [MyPet]    added 'world_the_end' to 'default'
+04-07-2020 20:04 [INFO] [MyPet]    added 'secret' to 'default'
+04-07-2020 20:04 [INFO] [MyPet] Connect to SQLite database...
+04-07-2020 20:04 [INFO] [MyPet] SQLite connection successful.
+04-07-2020 20:04 [INFO] [MyPet] Vault (1.7.2-b107) (Economy: TheNewEconomy) (Permissions: SuperPerms) hook activated.
+04-07-2020 20:04 [INFO] [MyPet] Version 3.9-b1525 ENABLED
+04-07-2020 20:06 [INFO] [MyPet] Disabling MyPet v3.9
+04-07-2020 20:07 [INFO] [MyPet] Error-Reporter ENABLED
+04-07-2020 20:08 [INFO] [MyPet] Enabling MyPet v3.9
+04-07-2020 20:08 [INFO] [MyPet] No Update available.
+04-07-2020 20:08 [INFO] [MyPet] Custom entity registry found: net.minecraft.server.v1_14_R1.RegistryBlocks
+04-07-2020 20:08 [INFO] [MyPet] Compat mode for v1_14_R1 loaded.
+04-07-2020 20:08 [INFO] [MyPet] Exp calculation mode: MyPet
+04-07-2020 20:08 [INFO] [MyPet] Loading WorldGroups...
+04-07-2020 20:08 [INFO] [MyPet]    added 'world' to 'default'
+04-07-2020 20:08 [INFO] [MyPet]    added 'world_nether' to 'default'
+04-07-2020 20:08 [INFO] [MyPet]    added 'world_the_end' to 'default'
+04-07-2020 20:08 [INFO] [MyPet]    added 'secret' to 'default'
+04-07-2020 20:08 [INFO] [MyPet] Connect to SQLite database...
+04-07-2020 20:08 [INFO] [MyPet] SQLite connection successful.
+04-07-2020 20:08 [INFO] [MyPet] Vault (1.7.2-b107) (Economy: TheNewEconomy) (Permissions: SuperPerms) hook activated.
+04-07-2020 20:08 [INFO] [MyPet] Version 3.9-b1525 ENABLED
+04-07-2020 20:48 [INFO] [MyPet] added bossfight to 'default' group.
+04-07-2020 22:19 [INFO] [MyPet] Disabling MyPet v3.9
